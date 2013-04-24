@@ -1,0 +1,123 @@
+
+[Code]
+procedure AboutButtonOnClick(Sender: TObject);
+begin
+  MsgBox('(c) 2006-2010 FlylinkDC++ Team', mbInformation, mb_Ok);
+end;
+
+procedure URLLabelOnClick(Sender: TObject);
+var
+  ErrorCode: Integer;
+begin
+  ShellExec('open', 'http://flylinkdc.blogspot.com/', '', '', SW_SHOWNORMAL, ewNoWait, ErrorCode);
+end;
+
+procedure CreateAboutButtonAndURLLabel(ParentForm: TSetupForm; CancelButton: TNewButton);
+var
+  AboutButton: TNewButton;
+  URLLabel: TNewStaticText;
+begin
+  AboutButton := TNewButton.Create(ParentForm);
+  AboutButton.Left := ParentForm.ClientWidth - CancelButton.Left - CancelButton.Width;
+  AboutButton.Top := CancelButton.Top;
+  AboutButton.Width := CancelButton.Width;
+  AboutButton.Height := CancelButton.Height;
+  AboutButton.Caption := '&About...';
+  AboutButton.OnClick := @AboutButtonOnClick;
+  AboutButton.Parent := ParentForm;
+
+  URLLabel := TNewStaticText.Create(ParentForm);
+  URLLabel.Caption := 'http://flylinkdc.blogspot.com';
+  URLLabel.Cursor := crHand;
+  URLLabel.OnClick := @URLLabelOnClick;
+  URLLabel.Parent := ParentForm;
+  URLLabel.Font.Style := URLLabel.Font.Style + [fsUnderline];
+  URLLabel.Font.Color := clBlue;
+  URLLabel.Top := AboutButton.Top + AboutButton.Height - URLLabel.Height - 2;
+  URLLabel.Left := AboutButton.Left + AboutButton.Width + ScaleX(7);
+end;
+
+function Postfix(Separator: String): String;
+begin
+  if Is64BitInstallMode then begin
+    Separator := Separator + 'x64';
+    Result := Separator;
+  end;
+end;
+
+var
+  UserPage: TInputQueryWizardPage;
+  DataDirPage: TInputDirWizardPage;
+
+
+function NextButtonClick(CurPageID: Integer): Boolean;
+begin
+  { Validate certain pages before allowing the user to proceed }
+  if CurPageID = DataDirPage.ID then begin
+    begin
+      if DataDirPage.Values[0] = '' then
+    begin
+        DataDirPage.Values[0] := 'C:\DCDownloads';
+        MsgBox('Вы должны указать каталог для скачки файлов!', mbError, MB_OK);
+        Result := false;
+    end
+    else
+        RegWriteStringValue(HKEY_CURRENT_USER, 'Software\FlylinkDC++', 'DownloadDir', DataDirPage.Values[0]);
+        RegWriteStringValue(HKEY_CURRENT_USER, 'Software\FlylinkDC++','Nick', UserPage.Values[0]);
+        if (DirExists(DataDirPage.Values[0]) = false) then
+          begin
+            if (CreateDir(DataDirPage.Values[0]) = false) then
+               begin
+               MsgBox('Ошибка создания каталога для скачки!', mbError, MB_OK);
+               Result := false;
+               end
+              else
+               Result := true;
+          end
+        else
+          Result := true;
+    end;
+  end
+  else
+    Result := True;
+end;
+
+procedure RegisterPreviousData(PreviousDataKey: Integer);
+begin
+  { Store the settings so we can restore them next time }
+  SetPreviousData(PreviousDataKey, 'Name', UserPage.Values[0]);
+  SetPreviousData(PreviousDataKey, 'DataDir', DataDirPage.Values[0]);
+end;
+
+procedure InitializeWizard();
+begin
+  WizardForm.TypesCombo.Visible := False;
+  CreateAboutButtonAndURLLabel(WizardForm, WizardForm.CancelButton);
+  UserPage := CreateInputQueryPage(wpSelectDir,
+    'Информация о пользователе', 'Какой ник у Вас в DC++?',
+    'Укажите ник и нажмите "Далее"'+ #13 +#13 +'Рекомендуемые символы в нике:' +#13 +'0123456789'+ #13 + 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'+ #13 +'()+-=[]^_{})"' + #13 + 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшъщыьэюя');
+  UserPage.Add('Имя пользователя в DC++:', False);
+
+
+  DataDirPage := CreateInputDirPage(wpSelectDir+1,
+    'Выбор каталога для загрузки', 'Где будут храниться загружаемые файлы?',
+    'Укажите каталог для скачки (при старте он будет автоматически "расшарен")',
+    False, 'DCDownloads');
+  DataDirPage.Add('');
+
+  { Set default values, using settings that were stored last time if possible }
+  UserPage.Values[0] := GetPreviousData('Name', '');
+  DataDirPage.Values[0] := GetPreviousData('DataDir', 'C:\DCDownloads');
+end;
+
+procedure InitializeUninstallProgressForm();
+begin
+  CreateAboutButtonAndURLLabel(UninstallProgressForm, UninstallProgressForm.CancelButton);
+end;
+
+procedure DeinitializeUninstall();
+var ErrorCode : Integer;
+begin
+    if MsgBox('Спасибо за использование StrongDC++ sqlite' #13 'Вы можете сообщить о причине удаления программы и Ваше сообщение будет рассмотрено разработчиками...', mbConfirmation, MB_YESNO or MB_DEFBUTTON2) = idYes
+    then ShellExec('open', 'http://flylinkdc.blogspot.com/2010/04/strongdc-sqlite-uninstall-feedback.html', '', '', SW_SHOW, ewNoWait, ErrorCode);
+end;

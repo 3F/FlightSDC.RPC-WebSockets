@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="client\AdcCommand.cpp" />
+    <ClCompile Include="client\AdcHub.cpp" />
+    <ClCompile Include="client\ADLSearch.cpp" />
+    <ClCompile Include="client\BufferedSocket.cpp" />
+    <ClCompile Include="client\BZUtils.cpp" />
+    <ClCompile Include="client\ChatMessage.cpp" />
+    <ClCompile Include="client\CID.cpp" />
+    <ClCompile Include="client\Client.cpp" />
+    <ClCompile Include="client\ClientManager.cpp" />
+    <ClCompile Include="client\ConnectionManager.cpp" />
+    <ClCompile Include="client\ConnectivityManager.cpp" />
+    <ClCompile Include="client\CryptoManager.cpp" />
+    <ClCompile Include="client\DCPlusPlus.cpp" />
+    <ClCompile Include="client\DetectionManager.cpp" />
+    <ClCompile Include="client\DirectoryListing.cpp" />
+    <ClCompile Include="client\Download.cpp" />
+    <ClCompile Include="client\DownloadManager.cpp" />
+    <ClCompile Include="client\Encoder.cpp" />
+    <ClCompile Include="client\FavoriteManager.cpp" />
+    <ClCompile Include="client\File.cpp" />
+    <ClCompile Include="client\FinishedManager.cpp" />
+    <ClCompile Include="client\HashBloom.cpp" />
+    <ClCompile Include="client\HashManager.cpp" />
+    <ClCompile Include="client\HttpConnection.cpp" />
+    <ClCompile Include="client\Mapper.cpp" />
+    <ClCompile Include="client\MappingManager.cpp" />
+    <ClCompile Include="client\NmdcHub.cpp" />
+    <ClCompile Include="client\QueueItem.cpp" />
+    <ClCompile Include="client\QueueManager.cpp" />
+    <ClCompile Include="client\ResourceManager.cpp" />
+    <ClCompile Include="client\SearchManager.cpp" />
+    <ClCompile Include="client\SearchQueue.cpp" />
+    <ClCompile Include="client\SearchResult.cpp" />
+    <ClCompile Include="client\ServerSocket.cpp" />
+    <ClCompile Include="client\SettingsManager.cpp" />
+    <ClCompile Include="client\SharedFileStream.cpp" />
+    <ClCompile Include="client\ShareManager.cpp" />
+    <ClCompile Include="client\SimpleXML.cpp" />
+    <ClCompile Include="client\SimpleXMLReader.cpp" />
+    <ClCompile Include="client\Socket.cpp" />
+    <ClCompile Include="client\SSL.cpp" />
+    <ClCompile Include="client\SSLSocket.cpp" />
+    <ClCompile Include="client\stdinc.cpp" />
+    <ClCompile Include="client\StringDefs.cpp" />
+    <ClCompile Include="client\Text.cpp" />
+    <ClCompile Include="client\Thread.cpp" />
+    <ClCompile Include="client\ThrottleManager.cpp" />
+    <ClCompile Include="client\TigerHash.cpp" />
+    <ClCompile Include="client\TimerManager.cpp" />
+    <ClCompile Include="client\TraceManager.cpp" />
+    <ClCompile Include="client\Transfer.cpp" />
+    <ClCompile Include="client\Upload.cpp" />
+    <ClCompile Include="client\UploadManager.cpp" />
+    <ClCompile Include="client\User.cpp" />
+    <ClCompile Include="client\UserCommand.cpp" />
+    <ClCompile Include="client\UserConnection.cpp" />
+    <ClCompile Include="client\Util.cpp" />
+    <ClCompile Include="client\WebServerManager.cpp" />
+    <ClCompile Include="client\ZUtils.cpp" />
+    <ClCompile Include="client\CFlylinkDBManager.cpp" />
+    <ClCompile Include="client\sqlite\sqlite3.c" />
+    <ClCompile Include="client\sqlite\sqlite3x_command.cpp" />
+    <ClCompile Include="client\sqlite\sqlite3x_connection.cpp" />
+    <ClCompile Include="client\sqlite\sqlite3x_reader.cpp" />
+    <ClCompile Include="client\sqlite\sqlite3x_transaction.cpp" />
+    <ClCompile Include="client\IpGuard.cpp" />
+    <ClCompile Include="client\PGLoader.cpp" />
+    <ClCompile Include="FlyFeatures\flyServer.cpp">
+      <Filter>fly-server</Filter>
+    </ClCompile>
+    <ClCompile Include="client\LogManager.cpp" />
+    <ClCompile Include="jsoncpp\src\lib_json\json_reader.cpp">
+      <Filter>jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp\src\lib_json\json_value.cpp">
+      <Filter>jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp\src\lib_json\json_writer.cpp">
+      <Filter>jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="client\CFlyProfiler.cpp" />
+    <ClCompile Include="client\DebugManager.cpp" />
+    <ClCompile Include="client\Exception.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="client\CFlylinkDBManager.h" />
+    <ClInclude Include="client\sqlite\sqlite3.h" />
+    <ClInclude Include="client\sqlite\sqlite3ext.h" />
+    <ClInclude Include="client\sqlite\sqlite3x.hpp" />
+    <ClInclude Include="client\sqlite\sqlite_fly.h" />
+    <ClInclude Include="client\IpGuard.h" />
+    <ClInclude Include="client\PGLoader.h" />
+    <ClInclude Include="client\AdcCommand.h" />
+    <ClInclude Include="client\AdcHub.h" />
+    <ClInclude Include="client\ADLSearch.h" />
+    <ClInclude Include="client\BitInputStream.h" />
+    <ClInclude Include="client\BitOutputStream.h" />
+    <ClInclude Include="client\BloomFilter.h" />
+    <ClInclude Include="client\BufferedSocket.h" />
+    <ClInclude Include="client\BufferedSocketListener.h" />
+    <ClInclude Include="client\BZUtils.h" />
+    <ClInclude Include="client\ChatMessage.h" />
+    <ClInclude Include="client\CheatManager.h" />
+    <ClInclude Include="client\CID.h" />
+    <ClInclude Include="client\Client.h" />
+    <ClInclude Include="client\ClientListener.h" />
+    <ClInclude Include="client\ClientManager.h" />
+    <ClInclude Include="client\ClientManagerListener.h" />
+    <ClInclude Include="client\compiler.h" />
+    <ClInclude Include="client\ConnectionManager.h" />
+    <ClInclude Include="client\ConnectionManagerListener.h" />
+    <ClInclude Include="client\ConnectivityManager.h" />
+    <ClInclude Include="client\CryptoManager.h" />
+    <ClInclude Include="client\DCPlusPlus.h" />
+    <ClInclude Include="client\debug.h" />
+    <ClInclude Include="client\DebugManager.h" />
+    <ClInclude Include="client\DetectionEntry.h" />
+    <ClInclude Include="client\DetectionManager.h" />
+    <ClInclude Include="client\DirectoryListing.h" />
+    <ClInclude Include="client\Download.h" />
+    <ClInclude Include="client\DownloadManager.h" />
+    <ClInclude Include="client\DownloadManagerListener.h" />
+    <ClInclude Include="client\Encoder.h" />
+    <ClInclude Include="client\Exception.h" />
+    <ClInclude Include="client\FavHubGroup.h" />
+    <ClInclude Include="client\FavoriteManager.h" />
+    <ClInclude Include="client\FavoriteManagerListener.h" />
+    <ClInclude Include="client\FavoriteUser.h" />
+    <ClInclude Include="client\File.h" />
+    <ClInclude Include="client\FilteredFile.h" />
+    <ClInclude Include="client\FinishedManager.h" />
+    <ClInclude Include="client\FinishedManagerListener.h" />
+    <ClInclude Include="client\Flags.h" />
+    <ClInclude Include="client\forward.h" />
+    <ClInclude Include="client\HashBloom.h" />
+    <ClInclude Include="client\HashManager.h" />
+    <ClInclude Include="client\HashValue.h" />
+    <ClInclude Include="client\HttpConnection.h" />
+    <ClInclude Include="client\HubEntry.h" />
+    <ClInclude Include="client\LogManager.h" />
+    <ClInclude Include="client\Mapper.h" />
+    <ClInclude Include="client\MappingManager.h" />
+    <ClInclude Include="client\MerkleCheckOutputStream.h" />
+    <ClInclude Include="client\MerkleTree.h" />
+    <ClInclude Include="client\NmdcHub.h" />
+    <ClInclude Include="client\noexcept.h" />
+    <ClInclude Include="client\Pointer.h" />
+    <ClInclude Include="client\QueueItem.h" />
+    <ClInclude Include="client\QueueManager.h" />
+    <ClInclude Include="client\QueueManagerListener.h" />
+    <ClInclude Include="client\ResourceManager.h" />
+    <ClInclude Include="client\ScopedFunctor.h" />
+    <ClInclude Include="client\SearchManager.h" />
+    <ClInclude Include="client\SearchManagerListener.h" />
+    <ClInclude Include="client\SearchQueue.h" />
+    <ClInclude Include="client\SearchResult.h" />
+    <ClInclude Include="client\Segment.h" />
+    <ClInclude Include="client\Semaphore.h" />
+    <ClInclude Include="client\ServerSocket.h" />
+    <ClInclude Include="client\SettingsManager.h" />
+    <ClInclude Include="client\SharedFileStream.h" />
+    <ClInclude Include="client\ShareManager.h" />
+    <ClInclude Include="client\SimpleXML.h" />
+    <ClInclude Include="client\SimpleXMLReader.h" />
+    <ClInclude Include="client\Singleton.h" />
+    <ClInclude Include="client\Socket.h" />
+    <ClInclude Include="client\Speaker.h" />
+    <ClInclude Include="client\SSL.h" />
+    <ClInclude Include="client\SSLSocket.h" />
+    <ClInclude Include="client\stdinc.h" />
+    <ClInclude Include="client\Streams.h" />
+    <ClInclude Include="client\StringSearch.h" />
+    <ClInclude Include="client\StringTokenizer.h" />
+    <ClInclude Include="client\TaskQueue.h" />
+    <ClInclude Include="client\Text.h" />
+    <ClInclude Include="client\Thread.h" />
+    <ClInclude Include="client\ThrottleManager.h" />
+    <ClInclude Include="client\TigerHash.h" />
+    <ClInclude Include="client\TimerManager.h" />
+    <ClInclude Include="client\TraceManager.h" />
+    <ClInclude Include="client\Transfer.h" />
+    <ClInclude Include="client\typedefs.h" />
+    <ClInclude Include="client\Upload.h" />
+    <ClInclude Include="client\UploadManager.h" />
+    <ClInclude Include="client\UploadManagerListener.h" />
+    <ClInclude Include="client\User.h" />
+    <ClInclude Include="client\UserCommand.h" />
+    <ClInclude Include="client\UserConnection.h" />
+    <ClInclude Include="client\UserConnectionListener.h" />
+    <ClInclude Include="client\UserInfoBase.h" />
+    <ClInclude Include="client\Util.h" />
+    <ClInclude Include="client\version.h" />
+    <ClInclude Include="client\w.h" />
+    <ClInclude Include="client\WebServerManager.h" />
+    <ClInclude Include="client\ZUtils.h" />
+    <ClInclude Include="client\OnlineUser.h" />
+    <ClInclude Include="FlyFeatures\flyServer.h">
+      <Filter>fly-server</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\src\lib_json\json_batchallocator.h">
+      <Filter>jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\include\json\autolink.h">
+      <Filter>jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\include\json\config.h">
+      <Filter>jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\include\json\features.h">
+      <Filter>jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\include\json\forwards.h">
+      <Filter>jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\include\json\json.h">
+      <Filter>jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\include\json\reader.h">
+      <Filter>jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\include\json\value.h">
+      <Filter>jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\include\json\writer.h">
+      <Filter>jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="client\CFlyMediaInfo.h" />
+    <ClInclude Include="client\CFlyProfiler.h" />
+    <ClInclude Include="client\HintedUser.h" />
+    <ClInclude Include="client\util_flylinkdc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="client\StringDefs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="client\version.h.template" />
+    <None Include="jsoncpp\src\lib_json\json_internalarray.inl">
+      <Filter>jsoncpp</Filter>
+    </None>
+    <None Include="jsoncpp\src\lib_json\json_internalmap.inl">
+      <Filter>jsoncpp</Filter>
+    </None>
+    <None Include="jsoncpp\src\lib_json\json_valueiterator.inl">
+      <Filter>jsoncpp</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="fly-server">
+      <UniqueIdentifier>{82eb4bc7-2a18-40a1-bab6-193eb4ea9f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncpp">
+      <UniqueIdentifier>{e06e1eda-a8d9-48f0-982a-1b1224ed5a1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

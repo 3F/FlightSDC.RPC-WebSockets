@@ -1,0 +1,8 @@
+.svn
+developer.key
+CustomLocations.7z
+Customlocations-5.rar
+FlyUpdate.exe
+UpdateMaker.exe
+test-console.pdb
+vc10

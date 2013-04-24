@@ -1,0 +1,1168 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Language Name="Ukrainian" Author="ayli" Version="0.4.0" Revision="1">
+  <Strings>
+    <String Name="AcceptedDisconnects">Допустимо розривів</String>
+    <String Name="AcceptedTimeouts">Допустимо таймаутів</String>
+    <String Name="Active">Активный</String>
+    <String Name="ActiveSearchString">Актив / Рядок пошуку</String>
+    <String Name="Add">&amp;Додати</String>
+    <String Name="AddAsSource">Додати джерело</String>
+    <String Name="AddFinishedInstantly">Додати викачані файли в шару</String>
+    <String Name="AddToFavorites">Додати у друзі</String>
+    <String Name="Added">Додано</String>
+    <String Name="AdlSearch">Авто-пошук</String>
+    <String Name="AdlsDestination">Папка для результатів</String>
+    <String Name="AdlsDiscard">Скидання</String>
+    <String Name="AdlsDownload">Узгодження викачування</String>
+    <String Name="AdlsEnabled">Включено</String>
+    <String Name="AdlsFullPath">Повний шлях</String>
+    <String Name="AdlsProperties">Властивості Авто-пошуку</String>
+    <String Name="AdlsSearchString">Рядок пошуку</String>
+    <String Name="AdlsSizeMax">Макс. розмір файлу</String>
+    <String Name="AdlsSizeMin">Мін. розмір файлу</String>
+    <String Name="AdlsType">Тип пошуку</String>
+    <String Name="AdlsUnits">Одиниці розміру</String>
+    <String Name="All">Все</String>
+    <String Name="All3UsersOffline">Все 3 юзери оффлайн</String>
+    <String Name="All4UsersOffline">Все 4 юзери оффлайн</String>
+    <String Name="AllDownloadSlotsTaken">К-ть викачувань максимальна (Використовуються всі виділені слоти)</String>
+    <String Name="AllFileSlotsTaken">Ви викачуєте максимальне число файлів</String>
+    <String Name="AllUsersOffline">Все %d юзери оффлайн</String>
+    <String Name="AlternatesSend">Шукаються альтернативні джерела по ТТН для: </String>
+    <String Name="AntiPassiveSearch">-- УВАГА --
+-- Ви в активному режимі, але запустили пасивний пошук. --
+-- Не використовуйте пасивний пошук, якщо Ви отримуєте результати без цієї настройки --
+-- тому що ви не отримуєте результатів пошуку від пасивних клієнтів !!! --
+-- Вимкнете галку в настройках =&gt; Додатково =&gt; Завжди використовувати пасивний режим для пошуку --
+</String>
+    <String Name="Any">Будь-який</String>
+    <String Name="AscrollChat">Автопрокрутка чату</String>
+    <String Name="AtLeast">Не менше</String>
+    <String Name="AtMost">Не більш</String>
+    <String Name="Audio">Аудіо</String>
+    <String Name="Auto">Авто</String>
+    <String Name="AutoConnect">Авто-з'єднання / Назва</String>
+    <String Name="AutoGrant">Авто-видача слота / Нік</String>
+    <String Name="Automatic">Автоматичний</String>
+    <String Name="Average">Пошуків в сек.: </String>
+    <String Name="AverageUpload">Швидкість віддачі</String>
+    <String Name="Away">ПІШОВ</String>
+    <String Name="AwayModeOff">Режим "пішов" вимкнений</String>
+    <String Name="AwayModeOn">Режим "пішов" включений: </String>
+    <String Name="B">Б</String>
+    <String Name="BackgroundImage">Фонова картинка</String>
+    <String Name="BalloonPopups">Спливаючі повідомлення</String>
+    <String Name="BitziLookup">Bitzi Lookup</String>
+    <String Name="BlockFinished">Сегмент викачаний, очікування...</String>
+    <String Name="BothUsersOffline">Обидва юзери оффлайн</String>
+    <String Name="Browse">Огляд...</String>
+    <String Name="BrowseAccel">&amp;Огляд...</String>
+    <String Name="BrowseFileList">Проглянути список файлів</String>
+    <String Name="Bumped">Об'ємно</String>
+    <String Name="Cancel">Відміна</String>
+    <String Name="CertificateNotTrusted">Сертифікат ненадійний, неможливо з'єднатися</String>
+    <String Name="CertificateGenerationFailed">TLS відключений, не можу згенерувати сертифікат: </String>
+    <String Name="Cid">CID</String>
+    <String Name="Clear">Очистити чат</String>
+    <String Name="Clientid">Клієнт</String>
+    <String Name="Close">Закрити</String>
+    <String Name="CloseConnection">Закрити з'єднання</String>
+    <String Name="CollapseAll">Скрутити все</String>
+    <String Name="ColorActive">Активний юзер</String>
+    <String Name="ColorFast">"Гарячий" юзер</String>
+    <String Name="ColorOp">Юзер - Оператор</String>
+    <String Name="ColorPasive">Пасивний юзер</String>
+    <String Name="ColorServer">Юзер з сервером</String>
+    <String Name="CommandTooLong">Команда дуже довга</String>
+    <String Name="Compressed">Стислий</String>
+    <String Name="CompressionError">Помилка під час стиснення</String>
+    <String Name="Configure">&amp;Конфігурація</String>
+    <String Name="ConfiguredHubLists">Список публічних хаб-листів</String>
+    <String Name="Connect">&amp;З'єднання</String>
+    <String Name="ConnectAll">З'єднатися зі всіма юзерами</String>
+    <String Name="ConnectFavuserHub">З'єднатися з хабом</String>
+    <String Name="Connected">Підключено</String>
+    <String Name="Connecting">З'єднання...</String>
+    <String Name="ConnectingForced">З'єднання (примусово)...</String>
+    <String Name="ConnectingTo">З'єднання з </String>
+    <String Name="ConnectingToServer">З'єднання з сервером</String>
+    <String Name="Connection">З'єднання</String>
+    <String Name="ConnectionClosed">З'єднання закрите</String>
+    <String Name="ConnectionError">Помилка з'єднання</String>
+    <String Name="ConnectionTimeout">Таймаут з'єднання</String>
+    <String Name="ContinueSearch">Продовжити пошук</String>
+    <String Name="Copy">Копіювати</String>
+    <String Name="CopyAll">Копіювати все</String>
+    <String Name="CopyDescription">Копіювати опис</String>
+    <String Name="CopyEmailAddress">Копіювати e-mail</String>
+    <String Name="CopyExactShare">Копіювати точну шару</String>
+    <String Name="CopyHub">Копіювати адресу в буфер обміну</String>
+    <String Name="CopyIp">Копіювати IP</String>
+    <String Name="CopyLine">Копіювати весь рядок</String>
+    <String Name="CopyMagnetLink">Копіювати магнет-ссилку в буфер обміну</String>
+    <String Name="CopyNick">Копіювати ник</String>
+    <String Name="CopyNickIp">Копіювати Ник+IP</String>
+    <String Name="CopyTag">Копіювати версію + ТЕГ</String>
+    <String Name="CopyUrl">Копіювати URL</String>
+    <String Name="CorruptionDetected">Виявлено пошкодження файлу</String>
+    <String Name="CouldNotOpenTargetFile">Папка для тимчасових файлів недоступна: </String>
+    <String Name="Count">Рахунок</String>
+    <String Name="Country">Країна</String>
+    <String Name="CrcChecked">TTH/CRC Перевірені</String>
+    <String Name="CreatingHash">Хешування</String>
+    <String Name="CurrentVersion">Дана версія</String>
+    <String Name="DataRetrieved">Інформація отримана</String>
+    <String Name="DecompressionError">Помилка при розпаковуванні</String>
+    <String Name="Default">За умовчанням</String>
+    <String Name="Description">Опис</String>
+    <String Name="Destination">Призначення</String>
+    <String Name="Directory">Папка</String>
+    <String Name="DirectoryAddError">Папка вже існує</String>
+    <String Name="DisableSounds">Відключити звуки</String>
+    <String Name="Disabled">Вимкнути</String>
+    <String Name="DisconnectAll">Відключити всіх юзерів</String>
+    <String Name="DisconnectUser">Відключити юзера(ів)</String>
+    <String Name="Disconnected">Відключений</String>
+    <String Name="DisconnectedUser">Відключений юзер покинув хаб: </String>
+    <String Name="Document">Документ</String>
+    <String Name="Done">Готово</String>
+    <String Name="DontAddSegmentText">Не починати новий сегмент, якщо швидкість вища </String>
+    <String Name="DontRemoveSlashPassword">Не видаляйте /password перед введенням пароля</String>
+    <String Name="DontShareTempDirectory">Папка для тимчасових файлів не може бути расшарена</String>
+    <String Name="Download">Викачати</String>
+    <String Name="DownloadFailed">Невдале викачування: </String>
+    <String Name="DownloadFinishedIdle">Викачування завершене, очікування...</String>
+    <String Name="DownloadQueue">Черга викачування</String>
+    <String Name="DownloadStarting">Викачування починається...</String>
+    <String Name="DownloadTo">Викачати в...</String>
+    <String Name="DownloadWholeDir">Викачати всю папку</String>
+    <String Name="DownloadWholeDirTo">Викачати всю папку...</String>
+    <String Name="DownloadWithPriority">Викачування з пріоритетом...</String>
+    <String Name="Downloaded">Викачано</String>
+    <String Name="DownloadedBytes">Викачано %s (%.01f%%) за %s</String>
+    <String Name="DownloadedFrom"> Викачано від </String>
+    <String Name="DownloadedParts">Викачані частини</String>
+    <String Name="Downloading">Викачування...</String>
+    <String Name="DownloadingHubList">Викачування списку публічних хабов...</String>
+    <String Name="DownloadingList">Викачування списку...</String>
+    <String Name="Du">Від/До:</String>
+    <String Name="DuplicateSource">Дублікат джерела</String>
+    <String Name="Eb">EB</String>
+    <String Name="EditAccel">&amp;Правка</String>
+    <String Name="Email">E-Mail</String>
+    <String Name="EnableEmoticons">Включити смайли</String>
+    <String Name="EnableMultiSource">Включити сегментацію</String>
+    <String Name="EnterNick">Будь ласка, введіть ник в настройках клієнта!</String>
+    <String Name="EnterPassword">Будь ласка, введіть пароль</String>
+    <String Name="EnterSearchString">Введіть рядок пошуку</String>
+    <String Name="ErrorCreatingHashDataFile">Помилка при створенні бази хешей: </String>
+    <String Name="ErrorCreatingRegistryKeyAdc">Помилка при створенні adc-ключа в реєстрі</String>
+    <String Name="ErrorCreatingRegistryKeyDchub">Помилка при створенні dchub-ключа в реєстрі</String>
+    <String Name="ErrorCreatingRegistryKeyMagnet">Помилка при створенні magnet-ключа в реєстрі</String>
+    <String Name="ErrorHashing">Помилка при хешуванні</String>
+    <String Name="ErrorSavingHash">Помилка при збереженні бази хеша: </String>
+    <String Name="Errors">Помилки</String>
+    <String Name="ExactShared">Точна шара</String>
+    <String Name="ExactSize">Точний розмір</String>
+    <String Name="Executable">Виконуваний файл</String>
+    <String Name="ExpandAll">Розвернути все</String>
+    <String Name="ExpandedResults">Розвернути результати пошуку</String>
+    <String Name="ExtraHubSlots">Відношення хаби/слоти</String>
+    <String Name="ExtraSlotsSet">Установка екстра-слотів</String>
+    <String Name="FailedToShutdown">Виключення не вдалося!</String>
+    <String Name="FailedToLoadCertificate">Не вдалося завантажити сертифікат</String>
+    <String Name="FailedToLoadPrivateKey">Не вдалося завантажити секретний ключ</String>
+    <String Name="FavJoinShowingOff">Показ "прийшов"/"пішов" для друзів вимкнений</String>
+    <String Name="FavJoinShowingOn">Показ "прийшов"/"пішов" для друзів включений</String>
+    <String Name="FavoriteDirName">Назва</String>
+    <String Name="FavoriteDirNameLong">Як назвати цю папку</String>
+    <String Name="FavoriteHubAdded">Вибраний хаб доданий</String>
+    <String Name="FavoriteHubAlreadyExists">Хаб вже записаний у Вибрані</String>
+    <String Name="FavoriteHubDoesNotExist">Хаб не записаний у Вибрані</String>
+    <String Name="FavoriteHubIdentity">Ідентифікація (якщо порожньо, то за умовчанням)</String>
+    <String Name="FavoriteHubProperties">Властивості вибраного хаба</String>
+    <String Name="FavoriteHubRemoved">Вибраний хаб видалений</String>
+    <String Name="FavoriteHubs">Вибрані хаби</String>
+    <String Name="FavoriteUserAdded">Юзер доданий в Друзі... або вороги</String>
+    <String Name="FavoriteUsers">Друзі-Вороги</String>
+    <String Name="FavuserOnline">Прийшов Друг</String>
+    <String Name="File">Файл</String>
+    <String Name="FileListDiff">Порівняти</String>
+    <String Name="FileListRefreshFailed">Оновлення списку не вдалося: </String>
+    <String Name="FileListRefreshFinished">Оновлення списку завершене</String>
+    <String Name="FileListRefreshInProgress">Оновлення списку файлів вже запущено, будь ласка почекайте, перш ніж намагатися відновити його ще раз</String>
+    <String Name="FileListRefreshInitiated">Оновлення списку запущене</String>
+    <String Name="FileNotAvailable">Файл не доступний</String>
+    <String Name="FileType">Тип файлу</String>
+    <String Name="FileWithDifferentSize">Файл з іншим розміром вже стоїть в черзі на викачування</String>
+    <String Name="FileWithDifferentTth">Файл з іншим ТТН вже стоїть в черзі на викачування</String>
+    <String Name="Filename">Ім'я файлу</String>
+    <String Name="Files">Файли</String>
+    <String Name="FilesLeft">файлів залишилося</String>
+    <String Name="FilesPerHour">Файлів/година</String>
+    <String Name="Filter">&amp;Фільтр</String>
+    <String Name="Filtered">Відфільтровано</String>
+    <String Name="Find">Знайти</String>
+    <String Name="FinishedDownload">Викачування завершене: %s</String>
+    <String Name="FinishedDownloads">Завершені викачування</String>
+    <String Name="FinishedUpload">Віддача завершена: %s для %s"</String>
+    <String Name="FinishedUploads">Завершена віддача</String>
+    <String Name="Folder">Папка</String>
+    <String Name="Forbidden">Заборонено</String>
+    <String Name="ForbiddenDollarFile">Файл із знаком '$'не буде расшарен:</String>
+    <String Name="ForceAttempt">Примусова спроба</String>
+    <String Name="GarbageIncoming">Послати "сміття" на вхідне з'єднання (підтримує соєдненіє)</String>
+    <String Name="GarbageOutgoing">Послати "сміття" на витікаюче з'єднання (підтримує з'єднання)</String>
+    <String Name="Gb">ГБ</String>
+    <String Name="GetFileList">Список файлів</String>
+    <String Name="GetUserResponses">Відгук</String>
+    <String Name="GoToDirectory">Перейти в папку</String>
+    <String Name="GrantExtraSlot">Дати додатковий слот (10 хв)</String>
+    <String Name="GrantExtraSlotDay">Дати додатковий слот (день)</String>
+    <String Name="GrantExtraSlotHour">Дати додатковий слот (година)</String>
+    <String Name="GrantExtraSlotWeek">Дати додатковий слот (тиждень)</String>
+    <String Name="GrantSlotsMenu">Додаткові слоти</String>
+    <String Name="GroupSearchResults">Групувати результати пошуку по ТТН</String>
+    <String Name="HashDatabase">База даних хеша</String>
+    <String Name="HashProgress">Індексую файли...</String>
+    <String Name="HashProgressBackground">Запустити у фоновому режимі</String>
+    <String Name="HashProgressStats">Прогрес</String>
+    <String Name="HashProgressText">Почекайте, поки FlylinkDC++ прохеширує ваші файли (вони не будуть расшарені, поки не прохешируються)...</String>
+    <String Name="HashReadFailed">Неможливо прочитати базу даних хеша</String>
+    <String Name="HashRebuilt">База даних хеша оновлена</String>
+    <String Name="HashingFailed">Хешування не вдалося: </String>
+    <String Name="HashingFinished">Хешування завершене: </String>
+    <String Name="Hibernate">Сплячий режим</String>
+    <String Name="High">Високий</String>
+    <String Name="Highest">Найвищий</String>
+    <String Name="History">Історія</String>
+    <String Name="HitCount">Збіги</String>
+    <String Name="HitRatio">Відношення: </String>
+    <String Name="Hits">Збіги: </String>
+    <String Name="Hub">Хаб</String>
+    <String Name="HubAddress">Адреса</String>
+    <String Name="HubConnected">З'єднання встановлене</String>
+    <String Name="HubDisconnected">З'єднання розірване</String>
+    <String Name="HubList">Інет-хаби</String>
+    <String Name="HubListDownloaded">Список хабов скачав...</String>
+    <String Name="HubListEdit">Правка списку файлів</String>
+    <String Name="HubName">Назва</String>
+    <String Name="HubSegments">Хаб / Сегменти</String>
+    <String Name="HubUsers">Юзер(и, ів)</String>
+    <String Name="Hubs">Хаби</String>
+    <String Name="Chatdblclickaction">Подвійний клік на ник в чаті</String>
+    <String Name="CheatingUser">Обманщик знайдений</String>
+    <String Name="Check0byteShare">Перевіряти реальний розмір нульових шар</String>
+    <String Name="CheckFilelist">Перевірити список файлів</String>
+    <String Name="CheckForbidden">Расшарив заборонені файли: %s</String>
+    <String Name="CheckInflated">Список файлів був "роздутий" в %s разів</String>
+    <String Name="CheckMismatchedShareSize">Невідповідність розміру шари - </String>
+    <String Name="CheckOnConnect">Перевіряти юзерів при вході на хаб</String>
+    <String Name="CheckShowRealShare">, вказаний розмір = %[statedshareformat], реальний розмір = %[realshareformat]</String>
+    <String Name="CheckingClient">Перевірка клієнта...</String>
+    <String Name="ChooseFolder">Вибрати папку</String>
+    <String Name="ChunkOverlapped">Шматок перехоплений швидшим юзером</String>
+    <String Name="IgnoreTthSearches">Заховати ТТН</String>
+    <String Name="IgnoreUser">Ігнорувати юзера</String>
+    <String Name="IgnoredMessage">Ігнороване повідомлення: </String>
+    <String Name="IncompleteFavHub">Ви забули ввести адресу хаба</String>
+    <String Name="InvalidListname">Невірна назва списку файлів</String>
+    <String Name="InvalidNumberOfSlots">Невірне число слотів</String>
+    <String Name="InvalidSize">Невірний розмір</String>
+    <String Name="InvalidTargetFile">Невірний цільовий файл викачування (не вказана "папка для викачування за умовчанням" в настройках)</String>
+    <String Name="InvalidTree">Викачаний файл не співпадає з оригінальним TTH</String>
+    <String Name="Ip">Ip: </String>
+    <String Name="IpBare">Ip</String>
+    <String Name="Items">Виділено</String>
+    <String Name="JoinShowingOff">Показ "прийшов"/"пішов" вимкнений</String>
+    <String Name="JoinShowingOn">Показ "прийшов"/"пішов" включений</String>
+    <String Name="Joins">Прийшов: </String>
+    <String Name="Kb">КБ</String>
+    <String Name="Kbps">КБ/с</String>
+    <String Name="KbpsDisable">КБ/с (0 = вимкнений)</String>
+    <String Name="KickUser">Викинути юзера</String>
+    <String Name="KickUserFile">Викинути юзера з файлом</String>
+    <String Name="LargerTargetFileExists">Файл такого ж або більшого розміру вже існує в цільовій папці</String>
+    <String Name="LastHub">Хаб (Останній раз онлайн)</String>
+    <String Name="LastChange">Остання зміна: </String>
+    <String Name="LastSeen">Час (останнє)</String>
+    <String Name="LatestVersion">Остання версія</String>
+    <String Name="LeafCorrupted">Файл був пошкоджений, повторне викачування %s...</String>
+    <String Name="Left">залишилося</String>
+    <String Name="LeftColor">Колір зліва</String>
+    <String Name="LibCrash">Програма \"%s\" послужила причиною аварійного закриття FlylinkDC++. Видалите її, відновите або встановите альтернативну програму.</String>
+    <String Name="Limit">Ліміт віддачі</String>
+    <String Name="ListenerFailed">Прослуховування сокета не вдалося (перезапустите FlylinkDC++): </String>
+    <String Name="Loading">Завантаження FlylinkDC++, будь ласка почекайте...</String>
+    <String Name="LoadingFileList">Список файлів завантажується, це може зайняти якийсь час...</String>
+    <String Name="LoadedFileList">Список файлів завантажений.</String>
+    <String Name="Lock">Блок</String>
+    <String Name="LogOff">Кінець сеансу</String>
+    <String Name="Low">Низький</String>
+    <String Name="Lowest">Найнижчий</String>
+    <String Name="MagnetDlgFile">Ім'я файлу:</String>
+    <String Name="MagnetDlgHash">Хеш файлу:</String>
+    <String Name="MagnetDlgNothing">Нічого не робити</String>
+    <String Name="MagnetDlgQueue">Додати цей файл в чергу викачування</String>
+    <String Name="MagnetDlgRemember">Зробити теж саме наступного разу</String>
+    <String Name="MagnetDlgSearch">Почати пошук цього файлу</String>
+    <String Name="MagnetDlgSize">Розмір файлу:</String>
+    <String Name="MagnetDlgTextBad">Магнет-ссилка була відправлена до FlylinkDC++, але вона не містила вірного хеша для використання в Direct Connect мережі. Ніяких дій не буде зроблено.</String>
+    <String Name="MagnetDlgTextGood">FlylinkDC++ виявила Магнет-ссилку з файлом, який можна пошукати в Direct Connect мережі. Що робитимемо? (увага, ім'я файлу може бути спотворене - це помилка в IE! скористайтеся пошуком, або краще зміните браузер на FireFox - у нього проблем з російськими іменами файлів немає)</String>
+    <String Name="MagnetDlgTitle">Виявлена Магнет-ссилка </String>
+    <String Name="MagnetHandlerDesc">Викачати файл з Direct Connect мережі</String>
+    <String Name="MagnetHandlerRoot">FlylinkDC++</String>
+    <String Name="MagnetShellDesc">URL: Магнет-ссилки</String>
+    <String Name="MatchQueue">Порівняти чергу</String>
+    <String Name="MatchedFiles">%d файлів, що співпали</String>
+    <String Name="MaxHubs">Макс. Хабов</String>
+    <String Name="MaxSegmentsNumber">Макс. число сегментів</String>
+    <String Name="MaxSize">Макс. Розмір</String>
+    <String Name="MaxUsers">Макс. Юзерів</String>
+    <String Name="Maxhubs">Макс. хабов</String>
+    <String Name="Maxusers">Макс. юзерів</String>
+    <String Name="Mb">MБ</String>
+    <String Name="Mbitsps">МБит/с</String>
+    <String Name="Mbps">MБ/с</String>
+    <String Name="MenuAbout">Про програму</String>
+    <String Name="MenuAdlSearch">Авто-пошук</String>
+    <String Name="MenuArrange">Упорядкувати значки</String>
+    <String Name="MenuCascade">Каскадом</String>
+    <String Name="MenuCdmdebugMessages">CDM відладчик</String>
+    <String Name="MenuCloseAllDirList">Закрити всі вікна (списки файлів)</String>
+    <String Name="MenuCloseAllOfflinePm">Закрити всі вікна (оффлайн Лічки)	Alt+P</String>
+    <String Name="MenuCloseAllPm">Закрити всі вікна (Лічки)</String>
+    <String Name="MenuCloseAllSearchframe">Закрити всі вікна (пошук)</String>
+    <String Name="MenuCloseDisconnected">Закрити відключені	Alt+D</String>
+    <String Name="MenuReconnectDisconnected">Переподключення відключених	Ctrl+Alt+R</String>
+    <String Name="MenuCloseAllHubs">Закрити всі хаби</String>
+    <String Name="MenuCloseHubsBelow">Закрити хаби з низькою кіл-ю юзерів</String>
+    <String Name="MenuCloseHubsEmpty">Закрити порожні хаби</String>
+    <String Name="MenuDiscuss">Форум</String>
+    <String Name="MenuDonate">Пожертвування</String>
+    <String Name="MenuDownloadQueue">&amp;Черга викачування	Ctrl+D</String>
+    <String Name="MenuExit">&amp;Вихід</String>
+    <String Name="MenuFavoriteHubs">&amp;Вибрані хаби	Ctrl+F</String>
+    <String Name="MenuFavoriteUsers">Друзі &amp;	Ctrl+Shift+F</String>
+    <String Name="MenuFile">&amp;Файл</String>
+    <String Name="MenuFileRecentHubs">&amp;Недавні хаби</String>
+    <String Name="MenuFinishedDownloads">Завершені викачування	Ctrl+Shift+D</String>
+    <String Name="MenuWaitingUsers">Черга віддачі	Ctrl+U</String>
+    <String Name="MenuFinishedUploads">Завершені віддачі	Ctrl+Shift+U</String>
+    <String Name="MenuFollowRedirect">Перенаправлення&amp;	Ctrl+T</String>
+    <String Name="MenuHashProgress">Статус хешування	Ctrl+H</String>
+    <String Name="MenuHelp">&amp;Допомога</String>
+    <String Name="MenuSites">Сайти</String>
+    <String Name="MenuSitesNxp">neXTPeer.net</String>
+    <String Name="MenuSitesPeerweb">PeerWeb.org</String>
+    <String Name="MenuSitesTan">The Ascendent Network</String>
+    <String Name="MenuSitesGuides">Керівництво FlylinkDC++</String>
+    <String Name="MenuHelpGeoipfile">Відновити базу GeoIP</String>
+    <String Name="MenuHomepage">Домашня сторінка</String>
+    <String Name="MenuHorizontalTile">Горизонтально</String>
+    <String Name="MenuMinimizeAll">Скрутити &amp;все</String>
+    <String Name="MenuNetworkStatistics">Мережева статистика</String>
+    <String Name="MenuNotepad">&amp;Блокнот	Ctrl+N</String>
+    <String Name="MenuOpenDownloadsDir">Папка для викачування</String>
+    <String Name="MenuOpenFileList">Відкрити список файлів...	Ctrl+L</String>
+    <String Name="MenuOpenOwnList">Відкрити свій список файлів	Ctrl+Shift+L</String>
+    <String Name="MenuPublicHubs">Тимчасово вимкнути режим 'автобана'	Ctrl+P</String>
+    <String Name="MenuQuickConnect">&amp;Швидке з'єднання...	Ctrl+Q</String>
+    <String Name="MenuReconnect">&amp;Перепідключення	Ctrl+R</String>
+    <String Name="MenuRefreshFileList">Відновити список файлів	Ctrl+E</String>
+    <String Name="MenuRestoreAll">Розвернути все</String>
+    <String Name="MenuSearch">&amp;Пошук	Ctrl+S</String>
+    <String Name="MenuSearchSpy">Пошук-шпигун	Ctrl+Shift+S</String>
+    <String Name="MenuSettings">Настройки...	Ctrl+O</String>
+    <String Name="MenuShow">Показати FlylinkDC++</String>
+    <String Name="MenuStatusBar">&amp;Рядок стану	Ctrl+2</String>
+    <String Name="MenuToolbar">&amp;Панель управління	Ctrl+1</String>
+    <String Name="MenuTransferView">Передачі	Ctrl+3</String>
+    <String Name="MenuTransfers">&amp;Передачі</String>
+    <String Name="MenuTth">Отримати TTH файлу...</String>
+    <String Name="MenuVerticalTile">Вертикально</String>
+    <String Name="MenuView">&amp;Вигляд</String>
+    <String Name="MenuWindow">&amp;Вікно</String>
+    <String Name="Menubar">Меню</String>
+    <String Name="MinShare">Мін. Шара</String>
+    <String Name="MinSlots">Мін. Слотів</String>
+    <String Name="MinimumSearchInterval">Мін. інтервал пошуку</String>
+    <String Name="Minshare">Мін. шара</String>
+    <String Name="Minslots">Мін. слотів</String>
+    <String Name="Minutes">Хвилин</String>
+    <String Name="Mode">Режим</String>
+    <String Name="Move">Перемістити/перейменувати</String>
+    <String Name="MoveDown">&amp;Вниз</String>
+    <String Name="MoveUp">&amp;Вгору</String>
+    <String Name="MynickInChat">Мій ник в головному чаті</String>
+    <String Name="NetlimiterWarning">NetLimiter був виявлений на вашому комп'ютері. Він є частою причиною аварійного виходу FlylinkDC++, розривів з'єднань і маленької швидкості викачування. Будь ласка, видаліть його і використовуйте іншу аналогічну програму.</String>
+    <String Name="NetworkStatistics">Мережева статистика</String>
+    <String Name="New">&amp;Новий...</String>
+    <String Name="NewDisconnect">Видалити джерело, якщо швидкість нижча</String>
+    <String Name="Next">Далі</String>
+    <String Name="Nick">Ник</String>
+    <String Name="NickTaken">Ваш ник вже зайнятий, будь ласка зміните на якій-небудь іншій!</String>
+    <String Name="NickUnknown"> (Нік невідомий)</String>
+    <String Name="No">Ні</String>
+    <String Name="NoCertificateFileSet">TLS відключене, не встановлений сертифікат</String>
+    <String Name="NoDirectorySpecified">Не вказана папка</String>
+    <String Name="NoDownloadsFromPassive">Не можна викачувати у пасивних юзерів, коли Ви знаходитеся в пасивному режимі</String>
+    <String Name="NoDownloadsFromSelf">Ви намагаєтеся викачувати у самого себе!</String>
+    <String Name="NoErrors">Немає помилок</String>
+    <String Name="NoFreeBlock">Немає вільного блоку</String>
+    <String Name="NoLogForHub">Лог хаба не існує</String>
+    <String Name="NoLogForUser">Лог юзера не існує</String>
+    <String Name="NoMatches">Немає збігів</String>
+    <String Name="NoNeededPart">Немає потрібних частин</String>
+    <String Name="NoSlotsAvailable">Немає вільних слотів</String>
+    <String Name="NoUsers">Немає юзерів</String>
+    <String Name="NoUsersToDownloadFrom">Немає юзерів для викачування</String>
+    <String Name="Normal">Нормально</String>
+    <String Name="Notepad">Блокнот</String>
+    <String Name="NumberOfSegments">Сегмент(и)</String>
+    <String Name="Offline">Оффлайн</String>
+    <String Name="Ok">OK</String>
+    <String Name="Online">Онлайн</String>
+    <String Name="OnlyFreeSlots">Тільки юзери з вільними слотами</String>
+    <String Name="OnlyTth">Тільки результати з ТТН</String>
+    <String Name="OnlyWhereOp">Тільки там, де я Оператор</String>
+    <String Name="Open">Відкрити</String>
+    <String Name="OpenDownloadPage">Відкрити сторінку викачування?</String>
+    <String Name="OpenFolder">Відкрити папку</String>
+    <String Name="OpenHubLog">Відкрити лог хаба</String>
+    <String Name="OpenUserLog">Відкрити лог юзера</String>
+    <String Name="Parts">Пішов: </String>
+    <String Name="PassiveUser">Пасивний юзер</String>
+    <String Name="Password">Пароль</String>
+    <String Name="Path">Шлях</String>
+    <String Name="PauseSearch">Зупинити пошук</String>
+    <String Name="Paused">Пауза</String>
+    <String Name="Pb">ПБ</String>
+    <String Name="Picture">Картинка</String>
+    <String Name="Pk">PK рядок</String>
+    <String Name="Play">Тест</String>
+    <String Name="PopupDownloadFailed">Показувати спливаюче повідомлення при невдалому викачуванні</String>
+    <String Name="PopupDownloadFinished">Показувати спливаюче повідомлення при завершенні викачування</String>
+    <String Name="PopupDownloadStart">Показувати спливаюче повідомлення при початку викачування</String>
+    <String Name="PopupFavoriteConnected">Показувати спливаюче повідомлення коли входить друг</String>
+    <String Name="PopupHubConnected">Показувати спливаюче повідомлення при з'єднанні з хабом</String>
+    <String Name="PopupHubDisconnected">Показувати спливаюче повідомлення при розриві з'єднання з хабом</String>
+    <String Name="PopupCheatingUser">Показувати спливаюче повідомлення коли знайдений обманщик</String>
+    <String Name="PopupNewPm">Показувати спливаюче повідомлення при новій Лічці</String>
+    <String Name="PopupPm">Показувати спливаюче повідомлення при будь-якій Лічці</String>
+    <String Name="PopupType">Тип спливаючого повідомлення</String>
+    <String Name="PopupUploadFinished">Показувати спливаюче повідомлення при завершенні віддачі</String>
+    <String Name="Port">Порт: </String>
+    <String Name="PowerOff">Вимкнути комп'ютер</String>
+    <String Name="PressFollow">Натисніть "Перенаправлення" для з'єднання з </String>
+    <String Name="PreviewMenu">Передперегляд</String>
+    <String Name="PreviousFolders">Попередня папка</String>
+    <String Name="Priority">Пріоритет</String>
+	<String Name="PrivateMessage">Нова лічка</String>
+	<String Name="PrivateMessageFrom">Лічка від </String>
+    <String Name="ProgressBack">У вікні передач - задній фон</String>
+    <String Name="ProgressCompress">У вікні передач - розпаковані</String>
+    <String Name="ProgressDownloaded">У черги - викачані шматки</String>
+    <String Name="ProgressRunning">У черзі - викачувані шматки</String>
+    <String Name="ProgressSegment">У вікні передач - поточний сегмент</String>
+    <String Name="ProgressVerified">У черги - перевірені шматки</String>
+    <String Name="ProgressbarOdcStyle">Використовувати oDC стиль рядка прогресу</String>
+    <String Name="Properties">&amp;Властивості</String>
+    <String Name="PublicHubs">Тимчасово вимкнути режим 'автобана'</String>
+    <String Name="Purge">Скидання</String>
+    <String Name="QueueUpdating">Включити оновлення черги в реальному часі (підвищує навантаження на процесор)</String>
+    <String Name="QuickConnect">Швидке з'єднання</String>
+    <String Name="Rating">Рейтинг</String>
+    <String Name="Ratio">Відношення</String>
+    <String Name="ReaddSource">Додати джерела</String>
+    <String Name="ReallyExit">Точно вийти?</String>
+    <String Name="ReallyRemove">Точно видалити?</String>
+    <String Name="Reason">Причина</String>
+    <String Name="Reboot">Перезавантаження</String>
+    <String Name="RecentHubs">Недавні хаби</String>
+    <String Name="RedirectAlreadyConnected">Отримано перенаправлення на хаб, до якого ви вже підключені</String>
+    <String Name="RedirectUser">Перенаправити</String>
+    <String Name="Refresh">&amp;Відновити</String>
+    <String Name="RefreshUserList">Відновити список</String>
+    <String Name="Reliability">Надійність</String>
+    <String Name="Remove">&amp;Видалити</String>
+    <String Name="RemoveAll">Видалити все</String>
+    <String Name="RemoveExtraSlot">Видалити додатковий слот</String>
+    <String Name="RemoveFromAll">Видалити юзера з черги</String>
+    <String Name="RemoveOffline">Видалити юзерів, які оффлайн</String>
+    <String Name="RemoveSource">Видалити джерело</String>
+    <String Name="RenamedTo"> перейменований в </String>
+    <String Name="Report">Звіт</String>
+    <String Name="ReportAlternates">Звіт про авто-пошук альтернатив в рядку стану</String>
+    <String Name="RetrievingData">Отримання даних</String>
+    <String Name="RightColor">Колір справа</String>
+    <String Name="RollbackInconsistency">Відкіт, існуючий файл не співпадає з тим,  що скачав</String>
+    <String Name="Running">Запуск...</String>
+    <String Name="Search">Пошук</String>
+    <String Name="SearchFor">Пошук...</String>
+    <String Name="SearchForAlternates">Пошук альтернатив</String>
+    <String Name="SearchForFile">Пошук файлу</String>
+    <String Name="SearchInResults">Пошук в результатах</String>
+    <String Name="SearchOptions">Настройки пошуку</String>
+    <String Name="SearchSpamFrom">Пошук-спам виявлений </String>
+    <String Name="SearchSpy">Пошук-шпигун</String>
+    <String Name="SearchString">Рядок пошуку</String>
+    <String Name="SearchingFor">Шукаємо...</String>
+    <String Name="Seconds">Секунд</String>
+    <String Name="SeekBeyondEnd">Спроба запиту за межі області  даних</String>
+    <String Name="Segment">Сегмент</String>
+    <String Name="Segments">Сегменти</String>
+    <String Name="SelectAll">Вибрати все</String>
+    <String Name="SelectUserList">Знайти в списку</String>
+    <String Name="SendPrivateMessage">Послать лічку</String>
+    <String Name="SendPublicMessage">Ник в чат</String>
+    <String Name="Separator">Роздільник</String>
+    <String Name="Server">Сервер</String>
+    <String Name="SetPriority">Встановити пріоритет</String>
+    <String Name="SetczdcAlternateLimiting">Альтернативні обмеження</String>
+    <String Name="SetczdcBackColor">Колір фону</String>
+    <String Name="SetczdcBlackWhite">Чорно-білий</String>
+    <String Name="SetczdcBold">Виділяти никі в чаті жирним</String>
+    <String Name="SetczdcCzcharsDisable">Прибрати діакритичні знаки з чеських  букв</String>
+    <String Name="SetczdcDefaultStyle">Як було</String>
+    <String Name="SetczdcDisconnectingEnable">Відключати повільні  джерела</String>
+    <String Name="SetczdcDownloadSpeed">Скачка</String>
+    <String Name="SetczdcEnableLimiting">Вкл/вимк обмеження швидкості</String>
+    <String Name="SetczdcErrorColor">Помилка кольору</String>
+    <String Name="SetczdcHDownSpeed">І швидкість викачування файлу перевищить</String>
+    <String Name="SetczdcIDownSpeed">Розірвати скачку, якщо швидкість нижча</String>
+    <String Name="SetczdcMagnetUriHandler">Встановити обробник магнет-ссилок при  запуску</String>
+    <String Name="SetczdcMinFileSize">І розмір файлу більший, ніж</String>
+    <String Name="SetczdcNoteDownload">* Відношення "обмеження  викачування"=(7х"обмеження віддачі")</String>
+    <String Name="SetczdcNoteSmallUp">* Міні-слоти =&gt; Слоти для списків файлів і міні-файлів.</String>
+    <String Name="SetczdcNoteUpload">* Мінімальне обмеження віддачі рівне 5x(слот +1 )!!!</String>
+    <String Name="SetczdcPassiveSearch">Завжди використовувати пасивний режим для  пошуку (Тільки якщо ви знаєте що робите!!!)</String>
+    <String Name="SetczdcPmLines">К-ть рядків в логе новых лічек</String>
+    <String Name="SetczdcPreview">Передперегляд</String>
+    <String Name="SetczdcPrivateSound">Звук при отриманні лічки</String>
+    <String Name="SetczdcProgressbarColors">Кольори рядка прогресу</String>
+    <String Name="SetczdcProgressbarText">Кольори тексту рядка прогресу</String>
+    <String Name="SetczdcRemoveForbidden">Не показувати заборонені файли  (незавершені Kazaa, WinMX, GetRight, eMule, FlylinkDC++)</String>
+    <String Name="SetczdcSecondaryLimiting">Вторинне обмеження швидкості</String>
+    <String Name="SetczdcSlowDisconnect">Переривання при повільному викачуванні</String>
+    <String Name="SetczdcSmallFiles">Міні-файли</String>
+    <String Name="SetczdcSmallUpSlots">Міні-слоти</String>
+    <String Name="SetczdcStyles">Доступні стилі</String>
+    <String Name="SetczdcTextColor">Колір тексту</String>
+    <String Name="SetczdcTextStyle">Стиль тексту</String>
+    <String Name="SetczdcTimeDown">Довше чим</String>
+    <String Name="SetczdcTo">до</String>
+    <String Name="SetczdcTransferLimiting">Обмеження швидкості</String>
+    <String Name="SetczdcUpload">Віддача</String>
+    <String Name="SetczdcUploadSpeed">Віддача</String>
+    <String Name="SetczdcWinamp">Який у Вас плеєр?</String>
+    <String Name="Settings">Настройки</String>
+    <String Name="SettingsAddFolder">&amp;Додати</String>
+    <String Name="SettingsAdlsBreakOnFirst">Закінчити на першому збігу авто-пошуку</String>
+    <String Name="SettingsAdvanced">Додатково</String>
+    <String Name="SettingsAdvancedResume">Покращувана докачка з використанням TTH</String>
+    <String Name="SettingsAdvancedShowShareCheckedUsers">Показувати перевірених  юзерів</String>
+    <String Name="SettingsAdvancedSuppressMainChat">Відключити головний чат</String>
+    <String Name="SettingsAdvanced3">Для експертів</String>
+    <String Name="SettingsAllowUntrustedClients">Дозволити TLS-з'єднання з клієнтами без сертифікатів</String>
+    <String Name="SettingsAllowUntrustedHubs">Дозволити TLS-з'єднання з хабамі без сертифікатів</String>
+    <String Name="SettingsAntiFrag">Використовувати антифрагментаційний метод для викачування</String>
+    <String Name="SettingsAppearance">Зовнішній вигляд</String>
+    <String Name="SettingsArgument">Параметри</String>
+    <String Name="SettingsAutoAway">"Авто-пішов" при згортанні (і назад при відновленні)</String>
+    <String Name="SettingsAutoDropSegmentedSource">Тільки при сегментованому викачуванні (більше 2-х джерел)</String>
+    <String Name="SettingsAutoFollow">Автоматичне проходження  перенаправленням</String>
+    <String Name="SettingsAutoKick">Автоматично відключати юзера, що покинув хаб</String>
+    <String Name="SettingsAutoKickNoFavs">Не відключати автоматично друга, що покинув хаб</String>
+    <String Name="SettingsAutoOpen">Відкривати при запуску</String>
+    <String Name="SettingsAutoPriorityDefault">Використовувати авто-пріоритет за умовчанням</String>
+    <String Name="SettingsAutoRefreshTime">Оновлення шари</String>
+    <String Name="SettingsAutoSearch">Пошук альтернативних ТТН джерел  кожні</String>
+    <String Name="SettingsAutoSearchAutoMatch">Автоматичне додавання в чергу  (для автопошуку) (якщо натиснеш галку - почне викачувати багато файл-лістов!)</String>
+    <String Name="SettingsAutoSearchLimit">Макс. к-ть джерел для  авто-пошуку</String>
+    <String Name="SettingsAvipreview">Передперегляд</String>
+    <String Name="SettingsBadSoftware">Включити виявлення конфліктуючих  програм</String>
+    <String Name="SettingsBindAddress">Привласнена адреса</String>
+    <String Name="SettingsBindAddressHelp">Мережевий інтерфейс для всіх з'єднань</String>
+    <String Name="SettingsBoldOptions">Виділення закладок при змінах</String>
+    <String Name="SettingsBwboth">Тип з'єднання (старий метод DC++)</String>
+    <String Name="SettingsBwsingle">За умовчанням (новий метод DC++)</String>
+    <String Name="SettingsCertificates">Безпека</String>
+    <String Name="SettingsClearSearch">Очищати рядок пошуку після кожного запиту</String>
+    <String Name="SettingsClients">Клієнти</String>
+    <String Name="SettingsColorAlternate">Альтернативні джерела в пошуку</String>
+    <String Name="SettingsColorBadClient">Поганий клієнт</String>
+    <String Name="SettingsColorBadFilelist">Поганий список файлів/підроблена шара</String>
+    <String Name="SettingsColorClientChecked">Клієнт перевірений</String>
+    <String Name="SettingsColorFavorite">Вибрані</String>
+    <String Name="SettingsColorFilelistChecked">Список файлів перевірений</String>
+    <String Name="SettingsColorFullChecked">Повністю перевірений</String>
+    <String Name="SettingsColorIgnored">Ігнорований</String>
+    <String Name="SettingsColorNormal">Нормальний</String>
+    <String Name="SettingsColorReserved">Отримав слот</String>
+    <String Name="SettingsColors">Інші кольори</String>
+    <String Name="SettingsCommand">Команда</String>
+    <String Name="SettingsCompressTransfers">Дозволити безпечні і стислі передачі</String>
+    <String Name="SettingsConfigureHubLists">Списки інет-хабів</String>
+    <String Name="SettingsConfirmDialogOptions">Підтвердження</String>
+    <String Name="SettingsConfirmExit">Підтвердження виходу з програми</String>
+    <String Name="SettingsConfirmHubRemoval">Підтвердження видалення вибраного хаба</String>
+    <String Name="SettingsConfirmItemRemoval">Підтвердження видалення файлу з черги</String>
+    <String Name="SettingsCzdc">FlylinkDC++</String>
+    <String Name="SettingsCzdcExtraDownloads">Якщо вибраний найвищий пріоритет викачування, додавати додаткові слоти</String>
+    <String Name="SettingsDebugCommands">Команди відладки</String>
+    <String Name="SettingsDefaultAwayMsg">Повідомлення "пішов"</String>
+    <String Name="SettingsDirect">Пряме з'єднання</String>
+    <String Name="SettingsDirectories">Папки</String>
+    <String Name="SettingsDisplayCheatsInMainChat">Показувати обманщиків в головному чаті</String>
+    <String Name="SettingsDontDlAlreadyShared">Не викачувати файли, що вже знаходяться в шаре</String>
+    <String Name="SettingsDownloadDirectory">Папка для викачування за умовчанням</String>
+    <String Name="SettingsDownloadLimits">Обмеження швидкості</String>
+    <String Name="SettingsDownloads">Викачування</String>
+    <String Name="SettingsDownloadsMax">Макс. одночасних викачувань (0=нескінченно)</String>
+    <String Name="SettingsDownloadsSpeedPause">Не починати викачування, якщо швидкість більша... (КБ/с, 0=вимк)</String>
+    <String Name="SettingsExpandQueue">Автоматичне розгортання папок в черзі</String>
+    <String Name="SettingsExtensions">Розширення</String>
+    <String Name="SettingsExternalIp">Внешний / WAN IP</String>
+    <String Name="SettingsFakedetect">Автобан!</String>
+    <String Name="SettingsFavShowJoins">Показувати "прийшов"/"пішов" тільки для друзів</String>
+    <String Name="SettingsFavoriteDirs">Вибрані папки для викачування</String>
+    <String Name="SettingsFavoriteDirsPage">Вибрані</String>
+    <String Name="SettingsFileName">Ім'я файлу</String>
+    <String Name="SettingsFilesMax">Максимум одночасно отримуваних файлів (0 = нескінченно)</String>
+    <String Name="SettingsFilterMessages">Фільтрувати kick та NMDC у налагоджувальних повідомленнях</String>
+    <String Name="SettingsFirewallNat">Брандмауер з ручним перенаправленням портів</String>
+    <String Name="SettingsFirewallPassive">Брандмауер (Пасив, гірший варіант)</String>
+    <String Name="SettingsFirewallUpnp">Брандмауер з UPnP (тільки WinXP+)</String>
+    <String Name="SettingsFormat">Формат</String>
+    <String Name="SettingsGeneral">Загальні</String>
+    <String Name="SettingsGetUserCountry">Отримати країну юзера</String>
+    <String Name="SettingsHubUserCommands">Приймати команди юзера від хаба</String>
+    <String Name="SettingsChange">&amp;Змінити</String>
+    <String Name="SettingsIgnoreHubPms">Ігнорувати Лічки від хаба</String>
+    <String Name="SettingsIgnoreBotPms">Ігнорувати Лічки від ботів</String>
+    <String Name="SettingsIncoming">Настройки ВХІДНИХ з'єднань (див. Help/FAQ, якщо не упевнений)</String>
+    <String Name="SettingsKeepLists">Не видаляти списки файлів при виході</String>
+    <String Name="SettingsLanguageFile">Файл перекладу</String>
+    <String Name="SettingsLimit">Обмеження швидкості</String>
+    <String Name="SettingsLogDir">Папка для логів</String>
+    <String Name="SettingsLogDownloads">Лог викачування</String>
+    <String Name="SettingsLogFilelistTransfers">Лог отриманих списків файлів</String>
+    <String Name="SettingsLogMainChat">Лог головного чату</String>
+		<String Name="SettingsLogPrivateChat">Лог лічек</String>
+    <String Name="SettingsLogStatusMessages">Лог статусних повідомлень</String>
+    <String Name="SettingsLogSystemMessages">Лог системних повідомлень</String>
+    <String Name="SettingsLogUploads">Лог віддачи</String>
+    <String Name="SettingsLogWebserver">Лог веб-сервера</String>
+    <String Name="SettingsLogging">Вести логі</String>
+    <String Name="SettingsLogs">Логі</String>
+    <String Name="SettingsMaxCompress">Макс. ступінь стиснення</String>
+    <String Name="SettingsMaxHashSpeed">Макс. швидкість хеша</String>
+    <String Name="SettingsMaxTabRows">Макс. рядків закладок</String>
+    <String Name="SettingsMinimizeOnStartup">Згортати при запуску програми</String>
+    <String Name="SettingsMinimizeTray">Сворачивать в трей</String>
+    <String Name="SettingsMouseOver">Під курсором миші</String>
+    <String Name="SettingsName">Назва</String>
+    <String Name="SettingsNetwork">Настройки з'єднання</String>
+    <String Name="SettingsNoAwaymsgToBots">Не посилати "пішов" повідомлення ботам</String>
+    <String Name="SettingsNominalBandwidth">Ширина каналу</String>
+    <String Name="SettingsNormal">Звичайний вигляд</String>
+    <String Name="SettingsOdcShutdowntimeout">таймаут</String>
+    <String Name="SettingsOnlyHashed">Примітка: файли з'являються в шарі тільки коли хешировані!</String>
+    <String Name="SettingsOpenNewWindow">Відкривати нове вікно при використанні /join</String>
+    <String Name="SettingsOperacolors">Рядок прогресу</String>
+    <String Name="SettingsOptions">Настройки</String>
+    <String Name="SettingsOutgoing">Настройки ВИТІКАЮЧИХ з'єднань</String>
+    <String Name="SettingsOverride">Не враховувати настройки хабів</String>
+    <String Name="SettingsPersonalInformation">Персональна інформація</String>
+    <String Name="SettingsPmBeep">Звук при отримання Лічки</String>
+    <String Name="SettingsPmBeepOpen">Звук коли вікно Лічки відкрито</String>
+    <String Name="SettingsPmHistory">История Лички</String>
+    <String Name="SettingsPopunderFilelist">Відкривати новий список файлів у фоновому режимі</String>
+    <String Name="SettingsPopunderPm">Відкривати нову лічку в фоновому режимі</String>
+    <String Name="SettingsPopupBotPms">Відкривати лічку від хаба в окремому вікні</String>
+    <String Name="SettingsPopupHubPms">Відкривати лічку від ботів в окремому вікні</String>
+    <String Name="SettingsPopupPms">Показувати лічку в окремому вікні</String>
+    <String Name="SettingsPorts">Порти</String>
+    <String Name="SettingsPrioAutoprio">Автопріоритет - Автопріоритет повинен бути ВІДКЛЮЧЕНИЙ!</String>
+    <String Name="SettingsPrioHigh">Високий пріоритет</String>
+    <String Name="SettingsPrioHighest">Найвищий пріоритет</String>
+    <String Name="SettingsPrioLow">Низький пріоритет</String>
+    <String Name="SettingsPrioLowest">Найнижчий пріоритет файлам розміром більше заданого</String>
+    <String Name="SettingsPrioNormal">Нормальный приоритет</String>
+    <String Name="SettingsPromptPassword">Спливаюче вікно для введення пароля</String>
+    <String Name="SettingsPublicHubList">Список інет-хабов</String>
+    <String Name="SettingsPublicHubListHttpProxy">HTTP проксі (тільки для списку хабов)</String>
+    <String Name="SettingsPublicHubListUrl">Настройка списків інет-хабов</String>
+    <String Name="SettingsQueue">Черга</String>
+    <String Name="SettingsRenameFolder">Змінити</String>
+    <String Name="SettingsRequiresRestart">Примітка: Більшість з цих настройок вимагає перезавантаження FlylinkDC++ для їх застосування</String>
+    <String Name="SettingsReset">Скинути</String>
+    <String Name="SettingsRollback">Відкіт</String>
+    <String Name="SettingsSbMaxSources">Макс. збігів</String>
+    <String Name="SettingsSearchHistory">Історія пошуку</String>
+    <String Name="SettingsSegment">Сегментоване викачування</String>
+    <String Name="SettingsSelectColor">Вибір кольору</String>
+    <String Name="SettingsSelectTextFace">&amp;Стиль тексту</String>
+    <String Name="SettingsSelectWindowColor">Фон</String>
+    <String Name="SettingsSendUnknownCommands">Посилати невідомі команди хабу</String>
+    <String Name="SettingsShareHidden">Шарити приховані файли</String>
+    <String Name="SettingsShareSize">Всього:</String>
+    <String Name="SettingsSharedDirectories">Расшарені папки</String>
+    <String Name="SettingsShowInfoTips">Показувати підказки</String>
+    <String Name="SettingsShowJoins">Показувати "прийшов"/"пішов" у чаті за умовчанням</String>
+    <String Name="SettingsShowProgressBars">Показувати рядки прогресу для передач (небагато підвищує навантаження на процесор)</String>
+    <String Name="SettingsSkipZeroByte">Пропускати файли нульового розміру</String>
+    <String Name="SettingsSocks5">SOCKS5</String>
+    <String Name="SettingsSocks5Ip">Socks IP</String>
+    <String Name="SettingsSocks5Port">Порт</String>
+    <String Name="SettingsSocks5Resolve">Використовувати SOCKS5 сервер для обробки хостов</String>
+    <String Name="SettingsSocks5Username">Логін</String>
+    <String Name="SettingsSound">Звук</String>
+    <String Name="SettingsSounds">Звуки</String>
+    <String Name="SettingsSpeedsNotAccurate">Примітка: швидкість визначається не на 100% точно...</String>
+    <String Name="SettingsStatusInChat">Показувати статусні повідомлення в головному чаті</String>
+    <String Name="SettingsTcpPort">TCP</String>
+    <String Name="SettingsTlsPort">TLS</String>
+    <String Name="SettingsTextStyles">Кольори і Шрифти</String>
+    <String Name="SettingsTimeStamps">Показувати час повідомлення в чаті за умовчанням</String>
+    <String Name="SettingsTimeStampsFormat">Формат часу</String>
+    <String Name="SettingsToggleActiveWindow">Перемикати вікна при кліці по закладці поточного вікна</String>
+    <String Name="SettingsToolbar">Панель інструментів</String>
+    <String Name="SettingsToolbarAdd">Додати-&gt;</String>
+    <String Name="SettingsToolbarImage">Іконкі</String>
+    <String Name="SettingsToolbarRemove">&lt;-Видалити</String>
+    <String Name="SettingsUdpPort">UDP</String>
+    <String Name="SettingsUnfinishedDownloadDirectory">Папка для тимчасових файлів</String>
+    <String Name="SettingsUploadLineSpeed">Швидкість віддачі</String>
+    <String Name="SettingsUploads">Шара</String>
+    <String Name="SettingsUploadsMinSpeed">Відкрити дод. слот, якщо швидкість нижча (0=вимк.)</String>
+    <String Name="SettingsUploadsSlots">Слоти віддачі</String>
+    <String Name="SettingsUrlHandler">Перехоплювати ссилки вигляду dchub:// цим DC++ клієнтом</String>
+    <String Name="SettingsUseCtrlForLineHistory">Використовувати CTRL для рядків історії</String>
+    <String Name="SettingsUseExtensionDownto">Використовувати розширення файлів для викачувань в пошуку</String>
+    <String Name="SettingsUseOemMonofont">Використовувати покращуваний шрифт для проглядання текстових файлів</String>
+    <String Name="SettingsUseOldSharingUi">Старий інтерфейс розшарування</String>
+    <String Name="SettingsUseSsl">Використовувати SSL, якщо інший клієнт його теж підтримує</String>
+    <String Name="SettingsUseSystemIcons">Використовувати системні значки для файлів (небагато уповільнює перегляд)</String>
+    <String Name="SettingsUseVerticalView">Вертикальний вигляд за умовчанням</String>
+    <String Name="SettingsUserColors">Список юзерів</String>
+    <String Name="SettingsUserCommands">Команди юзера</String>
+    <String Name="SettingsUserMenu">Зміст меню юзера</String>
+    <String Name="SettingsWebserver">Включити Веб-сервер</String>
+    <String Name="SettingsWindows">Вікна</String>
+    <String Name="SettingsWindowsOptions">Настройки вікон</String>
+    <String Name="SettingsWriteBuffer">Розмір буфера запису</String>
+    <String Name="SettingsZdcProgressOverride">Змінити системні кольори</String>
+    <String Name="SettingsZdcProgressOverride2">Змінити системні кольори</String>
+    <String Name="Shared">Шара</String>
+    <String Name="SharedFiles">Розшарені файли</String>
+    <String Name="ShowPopupAway">Показувати спливаючі повідомлення тільки в режимі "пішов"</String>
+    <String Name="ShowPopupMinimized">Показувати спливаючі повідомлення тільки коли згорнуто</String>
+    <String Name="ShowSpeed">Показ. швидкість</String>
+    <String Name="ShowLimit">Показ. обмеж.</String>
+    <String Name="ShowSlots">Показать слоти</String>
+    <String Name="CustDesc">Опис</String>
+    <String Name="Shutdown">Вимкнути комп'ютер</String>
+    <String Name="ShutdownAction">Дія</String>
+    <String Name="ShutdownOff">Процес вимкнення відмінений...</String>
+    <String Name="ShutdownOn">Процес вимкнення запущений...</String>
+    <String Name="Size">Розмір</String>
+    <String Name="SizeExact">Точний</String>
+    <String Name="SizeMin">Мін. розмір</String>
+    <String Name="SkipRename">Нове ім'я співпадає із старим, пропускаю...</String>
+    <String Name="SlotGranted">Слот даний</String>
+    <String Name="Slots">Слоти</String>
+    <String Name="SlotsSet">Слоти задані</String>
+    <String Name="SlowUser">Повільний юзер</String>
+    <String Name="SmallFileSizeSet">Розмір міні-файлів заданий</String>
+    <String Name="SocksAuthFailed">Socks сервер відмовив в доступі (неправильний логін/пароль?)</String>
+    <String Name="SocksAuthUnsupported">Socks сервер не підтримує доступ з авторизацією по логін/пароль</String>
+    <String Name="SocksFailed">Socks сервер не зміг встановити з'єднання</String>
+    <String Name="SocksNeedsAuth">Socks сервер вимагає авторизацію</String>
+    <String Name="SocksSetupError">Неможливо настроїти socks сервер для UDP реле (перевірте адресу і порт socks )</String>
+    <String Name="SoundDownloadBegins">Викачування почалося</String>
+    <String Name="SoundDownloadFinished">Викачування завершене</String>
+    <String Name="SoundException">Помилка</String>
+    <String Name="SoundFakerFound">Знайдений обманщик</String>
+    <String Name="SoundSourceAdded">Додано нове джерело</String>
+    <String Name="SoundTthInvalid">Файл пошкоджений</String>
+    <String Name="SoundTypingNotify">При друці</String>
+    <String Name="SoundUploadFinished">Віддача завершена</String>
+    <String Name="SourceType">Тип джерела</String>
+    <String Name="SpecifySearchString">Уточните запит пошуку</String>
+    <String Name="SpecifyServer">Уточните сервер до якого підключаєтеся</String>
+    <String Name="Speed">Швидкість</String>
+    <String Name="Status">Статус</String>
+    <String Name="StoredPasswordSent">Пароль відправлений...</String>
+    <String Name="StringNotFound">Рядок не знайдений: </String>
+    <String Name="Supports">Підтримка</String>
+    <String Name="Suspend">Припинити</String>
+    <String Name="TabsOnTop">Помістити рядок із закладками вгору</String>
+    <String Name="Tag">Тег</String>
+    <String Name="TargetFilenameTooLong">Цільове ім'я дуже довге</String>
+    <String Name="Tb">TБ</String>
+    <String Name="TcpPortBusy">Не можу відкрити TCP порт. Передача файлів працюватиме некоректно, поки ви не зміните настройки або не вимкнете програму, яка використовує цей TCP порт</String>
+    <String Name="TextFakepercent">Допустимий відсоток невідповідності шари</String>
+    <String Name="TextManual">Жорстко встановити число сегментів</String>
+    <String Name="Time">Час</String>
+    <String Name="TimeLeft">Залишилося</String>
+    <String Name="TimestampHelp">
+- %a - День тижня скорочено
+- %A - День тижня повністю
+- %b - Місяць скорочено
+- %B - Місяць повністю
+- %c - Дата і час відповідає системним значенням
+- %d - День місяця в десятковому вигляді (01 - 31)
+- %H - Година у форматі 24 (00 - 23)
+- %I - Година у форматі 12 (01 - 12)
+- %j - День року в десятковому вигляді (001 - 366)
+- %m - Місяць в десятковому вигляді (01 - 12)
+- %M - Хвилина в десятковому вигляді (00 - 59)
+- %p - Індикатор A.M./P.M. для годинного формату 12
+- %S - Секунди в десятковому вигляді (00 - 59)
+- %U - Тиждень в десятковому вигляді, з Неділею як перший день (00 - 53)
+- %w - День тижня в десятковому вигляді (0 - 6; Неділя - 0)
+- %W - Тиждень в десятковому вигляді, з Понеділком як перший день (00 - 53)
+- %x - Дата відповідає системній
+- %X - Час відповідає системному
+- %y - Рік без вказівки сторіччя, в десятковому вигляді (00 - 99)
+- %Y - Рік з вказівкою сторіччя, в десятковому вигляді
+- %z, %Z - Часова зона і скорочена часова зона, залежна від системного годинника; не пишеться, якщо невідома
+- %% - Знак відсотка
+
+За умовчанням: %H:%M:%S</String>
+    <String Name="TimestampHelpDesc">Допомога</String>
+    <String Name="TimestampsDisabled">Вимкнути показ часу в чаті</String>
+    <String Name="TimestampsEnabled">Включити показ часу в чаті</String>
+    <String Name="TooMuchData">Даних більше, ніж очікувалося</String>
+    <String Name="Total">Всього: </String>
+    <String Name="Transferlistdblclickaction">Подвійний клік на рядку передач</String>
+    <String Name="Transferred">Передано</String>
+    <String Name="TthAlreadyShared">Файл з таким же ТТН вже знаходиться у вашій шарі</String>
+    <String Name="TthInconsistency">TTH невідповідність</String>
+    <String Name="TthRoot">TTH</String>
+    <String Name="TwoColors">Два кольори</String>
+    <String Name="Type">Тип</String>
+    <String Name="UnableToCreateThread">Неможливо створити потік</String>
+    <String Name="UnableToOpenFilelist">Неможливо відкрити список: </String>
+    <String Name="UnableToRename">Неможливо перейменувати </String>
+    <String Name="UnignoreUser">Не ігнорувати юзера</String>
+    <String Name="Unknown">Невідомо</String>
+    <String Name="UnknownCommand">Невідома команда: </String>
+    <String Name="UnknownError">Невідома помилка: 0x%x</String>
+    <String Name="UpdateCheck">Перевірити оновлення</String>
+    <String Name="UploadFinishedIdle">Віддача завершена, очікування...</String>
+    <String Name="UploadStarting">Віддача почалася...</String>
+    <String Name="UploadedBytes">Віддано %s (%.01f%%) за %s</String>
+    <String Name="UploadedTo"> Віддано </String>
+    <String Name="UpnpFailedToCreateMappings">Неможливо створити розподіл портів. Настройте NAT самі.</String>
+    <String Name="UpnpFailedToGetExternalIp">Неможливо визначити зовнішній IP через UPnP. Встановите його самі.</String>
+    <String Name="UpnpFailedToRemoveMappings">Неможливо видалити розподіл портів.</String>
+    <String Name="User">Юзер</String>
+    <String Name="UserCmdCommand">Команда</String>
+    <String Name="UserCmdContext">Контекст</String>
+    <String Name="UserCmdFilelistMenu">Меню листа файлів</String>
+    <String Name="UserCmdHub">Хаб IP / DNS (empty = все, 'op' = де Оператор)</String>
+    <String Name="UserCmdHubMenu">Меню хаба</String>
+    <String Name="UserCmdChat">Чат</String>
+    <String Name="UserCmdOnce">Послати один раз кожному нику</String>
+    <String Name="UserCmdParameters">Параметри</String>
+    <String Name="UserCmdPm">PM</String>
+    <String Name="UserCmdPreview">Текст посланий хабу</String>
+    <String Name="UserCmdRaw">Raw</String>
+    <String Name="UserCmdSearchMenu">Меню пошуку</String>
+    <String Name="UserCmdTo">До</String>
+    <String Name="UserCmdType">Тип команди</String>
+    <String Name="UserCmdUserMenu">Меню юзера</String>
+    <String Name="UserCmdWindow">Створити / змінити команду</String>
+    <String Name="UserDescription">Опис юзера</String>
+    <String Name="UserOffline">Юзер оффлайн</String>
+    <String Name="UserOnline">викачується... (юзер онлайн)</String>
+    <String Name="UserWentOffline">Юзер пішов</String>
+    <String Name="UserWentOnline">Юзер прийшов</String>
+    <String Name="Userinfo">Інформація про юзера</String>
+    <String Name="UserlistIcons">Іконкі списку юзерів</String>
+    <String Name="Userlistdblclickaction">Подвійний клік на списку юзерів</String>
+    <String Name="Users">Юзери</String>
+		<String Name="UsersOnline">Завантажується... (%d з %d юзерів онлайн)</String>
+    <String Name="Version">Версія</String>
+    <String Name="Video">Відео</String>
+    <String Name="ViewAsText">Показати як текст</String>
+    <String Name="VirtualName">Віртуальна назва</String>
+    <String Name="VirtualNameExists">Віртуальна назва вже існує</String>
+    <String Name="VirtualNameLong">Назва папки, яку побачать інші</String>
+    <String Name="Waiting">Очікування...</String>
+    <String Name="WaitingFor">Почекайте %i секунд перед наступним пошуком...</String>
+    <String Name="WaitingTime">Час очікування</String>
+    <String Name="WaitingToRetry">Пауза між спробами...</String>
+    <String Name="WaitingUserOnline">Очікування (юзер онлайн)</String>
+    <String Name="WaitingUsers">Черга віддачі</String>
+    <String Name="WaitingUsersOnline">Очікування (%d з %d юзеров онлайн)</String>
+    <String Name="Webserver">Web-сервер</String>
+    <String Name="WhatsThis">Що &amp;це?</String>
+    <String Name="WhoIs">Whois </String>
+    <String Name="WinampHelp">/winamp - підтримуються версії 1.x, 2.x, 5.x (WinAmp 3 - ні)
+- %[version]	Версія (напр.: 2.91)
+- %[state]	Статус (напр.: зупинений/пауза/грає)
+- %[title]		Назва вікна Winamp - якщо хочете поміняти, Winamp &gt; Pref &gt; Input &gt; MPEG &gt; Title
+- %[rawtitle]	Назва вікна Winamp (якщо %[title] не працює)
+- %[percent]	Відсотки (напр. 40%)
+- %[length]	Тривалість в хвилинах:секундах (напр: 04:09)
+- %[elapsed]	Часу залишилося в хвилинах:секундах (напр. 03:51)
+- %[bar]		ASCII рядок прогресу, завдовжки в 10 знаків, без дужок (напр. [----|-----])
+- %[bitrate]	Бітрейт (напр. 128kbps)
+- %[sample]	Частота (напр. 22kHz)
+- %[channels]	Число каналів (напр. стерео / моно)
+Порожньо = Рядок за умовчанням -&gt; winamp(%[version]) %[state](%[title]) статус(%[percent] з %[length] %[bar]);
+
+Зауваження по KMPlayer:
+Ви можете використовувати більшість функцій, пропонованих командою /winamp, і всі функції панелі управління Winamp, також і з KMPlayer.
+Ось параметри, які не працюють (або повертають неправильні значення): %[version], %[bitrate], %[sample] и %[channels].
+Також, напевно знадобиться використовувати %[rawtitle] замість %[title], щоб отримати правильний вивід.</String>
+    <String Name="WinampHelpDesc">Допомога по Winamp</String>
+    <String Name="Yes">Так</String>
+    <String Name="ZonealarmWarning">ZoneAlarm виявлений на вашому комп'ютері. Він може бути причиною битих файлів, численних відкатів і помилок. Будь ласка, використовуйте інший брандмауер.</String>
+    <String Name="SettingsStripTopic">Приховати теми топіка</String>
+    <String Name="PasswordDesc">Введіть пароль</String>
+    <String Name="PasswordTitle">Потрібний пароль</String>
+    <String Name="SettingsSkiplistShare">Не додавати в шару (груповий символ: *, роздільник: ;)</String>
+    <String Name="CheckSettings">Перевірити настройки</String>
+    <String Name="WinampBack">Попередній</String>
+    <String Name="WinampPlay">Заграти</String>
+    <String Name="WinampPause">Пауза</String>
+    <String Name="WinampNext">Наступний</String>
+    <String Name="WinampStop">Стоп</String>
+    <String Name="WinampVolUp">Голосніше</String>
+    <String Name="WinampVolHalf">Гучність 50%</String>
+    <String Name="WinampVolDown">Тихіше</String>
+    <String Name="ToggleToolbar">Панель управління Winamp	Ctrl+4</String>
+    <String Name="WinampSpam">Показати, що я слухаю, в головному чаті</String>
+    <String Name="Threshold">Поріг юзерів</String>
+    <String Name="GetIp">Знайти IP адреси</String>
+    <String Name="UpdateIp">Відновити IP при старті</String>
+    <String Name="PmPreview">Продемонструвати лічку в спливаючих повідомленнях</String>
+    <String Name="XpLook">Повернути меню і панель управління в стилі XP</String>
+    <String Name="FilterOld">Фільтрувати список при натисненні будь-якої кнопки (використовує більше ресурсів)</String>
+    <String Name="PrioFile">Пріоритет по імені файлу</String>
+    <String Name="PrioFileHighest">Вищий:</String>
+    <String Name="PrioFileLowest">Нижчий:</String>
+    <String Name="Secs">секунд</String>
+    <String Name="PopupTime">Час показу</String>
+    <String Name="SettingsMisc">Різне</String>
+    <String Name="SetSecondaryAway">Друге повідомлення "пішов" </String>
+    <String Name="MenuHelpTranslations">Переклади</String>
+<String Name="MenuFaq">Питання, що часто ставляться</String>
+<String Name="SettingsDisplayDcUpdate">Не нагадувати про нові версії (version.xml все одно викачується)</String>
+<String Name="SettingsFilterEnter">Активувати фільтр пошуку/списку юзерів по натисненню Enter</String>
+<String Name="SettingsDownconn">Спроби викачати/сек</String>
+<String Name="SettingsUseTls">Використовувати TLS, коли видалений клієнт це підтримує</String>
+<String Name="MenuOpenMatchAll">Порівняти викачані списки</String>
+<String Name="FormatBiu">Форматувати текст в чаті (може викликати проблеми з картинками в MOTD's з ASCII)</String>
+<String Name="ProgressbarStealthyStyle">Прозорий стиль</String>
+<String Name="TicksSpeedDown">5 тактів нижче швидкість:</String>
+<String Name="TicksSpeedUp">5 тактів вище швидкість:</String>
+<String Name="HubSmall">Стартувати хаби згорнутими</String>
+<String Name="SettingsState">Зберігати положення вікна настройок</String>
+<String Name="EnableHubtopic">Включити підтримку $HubTopic</String>
+<String Name="IpInChat">Намагатися показати IP юзерів в чаті</String>
+<String Name="CountryInChat">Намагатися показати країну юзерів в чаті</String>
+<String Name="ProtUsers">Захищені префікси</String>
+	<String Name="ProtDesc">Не перевіряти юзерів (вик. ; як роздільник і * як шаблон)</String>
+<String Name="PgPlugin">PeerGuardian плагін</String>
+<String Name="PsrDelay">Затримка при посилці $PSR (у сек.)</String>
+<String Name="Buffersize">Буфер головного чату, макс. ~2.1 млрд (2^31)</String>
+<String Name="IgnoredUsers">Заігнорені юзери</String>
+<String Name="Connection">З'єднання</String>
+<String Name="HideShare">Заховати шару на цьому хабі (OP's only)</String>
+<String Name="ShowJoins">Показ вх/вих</String>
+<String Name="StealthMode">Эмулювати DC++ на цьому хабі</String>
+<String Name="TrayLimiter">Вкл/вимк обмеження швидкості</String>
+<String Name="SettingsShowShellMenu">Показати меню оболонки після закінчення передачі</String>
+<String Name="SettingsSortFavusersFirst">Сортувати фаворитів першими</String>
+<String Name="WmpHelp">/wmp - працює з Windows Media Player 9+
+- %[version]	Версія Windows Media Player
+- %[fullversion]	Повна версія Windows Media Player
+- %[status]	Рядок статусу з Windows Media Player
+- %[title]		Назва
+- %[elapsed]	Часу залишилося в (HH:)MM:SS
+- %[percent]	Часу залишилося у відсотках від загального часу
+- %[bar]		ASCII рядок прогресу, завдовжки в 10 знаків, без дужок (напр. [----|-----])
+- %[length]	Тривалість в (HH:)MM:SS
+- %[artist]	Артист
+- %[album]	Альбом
+- %[genre]	Жанр
+- %[bitrate]	Бітрейт
+- %[year]	Рік випуску альбома (no WMP9 support)
+- %[size]		Розмір файлу
+- %[rating]	Рейтинг, що показується з *'s (якщо доступно)
+Порожньо = Рядок за умовчанням -&gt; +me %[title] at %[bitrate] &lt;Windows Media Player %[version]&gt;</String>
+		<String Name="WmpHelpDesc">Допомога по Windows Media Player</String>
+		<String Name="ItunesHelp">/itunes - Для показу в чаті спаму від iTunes
+- %[version]	Версія (ex: 7.0.2.16)
+- %[album]	Альбом
+- %[artist]	Артист
+- %[title]		Назва
+- %[genre]	Жанр
+- %[elapsed]	Часу залишилося в хвилинах:секундах
+- %[percent]	Часу залишилося у відсотках від загального часу
+- %[bar]		ASCII рядок прогресу, завдовжки в 10 знаків, без дужок (напр. [----|-----])
+- %[length]	Тривалість в хвилинах:секундах
+- %[bitrate]	Бітрейт (kbps)
+- %[frequency]	Частота дискретизації (kHz)
+- %[year]	Рік випуску/запису трека
+- %[size]		Розмір файлу
+- %[state]	Поточний статус iTunes (грає/зупинений)
+
+Порожньо = Рядок за умовчанням -&gt; +me слухає: %[title] at %[bitrate] &lt;iTunes %[version]&gt;</String>
+		<String Name="ItunesHelpDesc">Допомога по iTunes</String>
+		<String Name="MpcHelp">/mpc - Для показу в чаті спаму від Media Player Classic
+- %[filename]	Ім'я файлу
+- %[title]		Назва (без розширення файлу)
+- %[size]		Розмір файлу
+- %[state]	Статус Media Player Classic (напр.: зупинений/пауза/грає)
+- %[elapsed]	Часу залишилося в хвилинах:секундах
+- %[percent]	Часу залишилося у відсотках від загального часу
+- %[bar]		ASCII рядок прогресу, завдовжки в 10 знаків, без дужок (напр. [----|-----])
+- %[length]	Тривалість в хвилинах:секундах
+
+Порожньо = Рядок за умовчанням -&gt; +me слухає: %[title] &lt;Media Player Classic&gt;</String>
+		<String Name="MpcHelpDesc">Допомога по Media Player Classic</String>
+		<String Name="NoMediaSpam">Вибраний плеєр не підтримує показ в чаті</String>
+		<String Name="ProtFavs">Авто захист друзів</String>
+		<String Name="RawTexts">Raw тексти (не пишіть сюди свої raw команди)</String>
+		<String Name="SuperUser">Суперюзер (обмеження не діє)</String>
+		<String Name="Opchat">Імена в OP чаті (можливі маски)</String>
+		<String Name="PgBlocked">Блоковане плагином PeerGuardian</String>
+		<String Name="ExclChecks">Виключити хаб з автоперевірки на фейк</String>
+		<String Name="PopupBackColor">&amp;Колір фону</String>
+		<String Name="PopupFont">&amp;Шрифт</String>
+		<String Name="PopupTitleFont">&amp;Шрифт заголовка</String>
+		<String Name="MaxMsgLength">Макс. довжина</String>
+		<String Name="PopupImage">Картинка</String>
+		<String Name="ExceptionDialog">FlylinkDC++ потерпів аварію...</String>
+		<String Name="ExceptionHeader">Виникла помилка застосування:</String>
+		<String Name="ExceptionFooter">Якщо проблема збережеться, скопіюйте інформацію вище в буфер обміну, і пошліть її на FlylinkDC++ форум або поштою ppa@lipetsk.ru</String>
+		<String Name="ExceptionRestart">Реконнект після аварії</String>
+		<String Name="ExceptionCopy">Скопіювати в буфер</String>
+		<String Name="ExceptionContinue">Продовжити</String>
+		<String Name="ExceptionTerminate">Закрити </String>
+		<String Name="OpenLogsInternal">Відкривати логі усередині програми (впливає на швидкодію, якщо логі дуже великі)</String>
+		<String Name="NoEmotesLinks">Не показувати смайли в повідомленнях з лінкамі</String>
+                <String Name="IgnorePrivate">Ігнорувати особисті повідомлення</String>
+                <String Name="UploadSpeedLimit">Обмежити швидкість</String>
+                <String Name="SendToAllUsers">Повідомлення всім юзерам</String>
+                <String Name="BanSlots">Бан якщо слотів менш</String>
+                <String Name="BanShare">Бан якщо шара менш, Gb</String>
+                <String Name="BanLimit">Бан якщо лімітер нижче, Kb</String>
+                <String Name="BanMessage">Повідомлення бана</String>
+                <String Name="BanmsgPeriod">Період повідомлень (0 - відключити Лічку), хв</String>
+                <String Name="BanStealth">Непомітний бан</String>
+                <String Name="BanSkipOps">Пропускати ОПів</String>
+                <String Name="BanForcePm">Лічка, навіть якщо клієнт уміє показувати бан в списку закачувань</String>
+                <String Name="ExtraslotToDl">Екстра-слот тим, з кого зараз викачую</String>
+                <String Name="ClientId">Імітація програми</String>
+                <String Name="GiveExtraSlot">Екстра-слот</String>
+                <String Name="HighPriority">Пріоритет +1</String>
+                <String Name="NormalPriority">Нормальний</String>
+                <String Name="LowPriority">Пріоритет -1</String>
+                <String Name="DnsBare">DNS</String>
+                <String Name="LocationBare">Розташування</String>
+                <String Name="UserSummary">Інфа про користувача</String>
+                <String Name="UserWaitMenu">Юзер хоче викачати</String>
+                <String Name="NeedUserFilesMenu">Закачування з цього юзера</String>
+                <String Name="MagnetDlgSaveas">Зберегти в..</String>
+                <String Name="BanColorDlg">Авто-бан</String>
+                <String Name="DupeColorDlg">Дублікати</String>
+                <String Name="ModColorDlg">Настройки кольору FlylinkDC++</String>
+                <String Name="PopupFavoriteDisconnected">Показувати спливаюче повідомлення коли йде друг</String>
+                <String Name="FavuserOffline">Пішов Друг</String>
+                <String Name="MultilineChatInput">Багаторядкове поле введення в чаті хаба/прівата</String>
+                <String Name="ExternalPreview">Використовувати зовнішню програму для швидкого перегляду текстів</String>
+                <String Name="UpTransferColors">Включити додаткові кольори прогресу віддачі (індикація кіл-ті відкритих слотів у качка)</String>
+                <String Name="ExtraSlotTimeout">Термін дії екстра-слота</String>
+                <String Name="ExtraSlotTimeFormat">Час дії (ГГ:ХХ или ДД:ГГ:ХХ)</String>
+                <String Name="InvalidTimeFormat">Неправильний формат часу</String>
+		<String Name="InvalidTimeFormat">Неправильний формат часу</String>
+		<String Name="SlotGrantedMsg">дав Вам екстра-слот на</String>
+		<String Name="SlotRemovedMsg">забрав екстра-слот</String>
+		<String Name="SendSlotgrantMsg">Посилати Лічку при видачі слота</String>
+		<String Name="SettingsMessages">Повідомлення</String>
+		<String Name="SettingsProtectPrivate">Захист Лічки паролем</String>
+		<String Name="SettingsPassword">Пароль</String>
+		<String Name="SettingsPasswordHint">Підказка до пароля</String>
+		<String Name="DefPassword">rabbit</String>
+		<String Name="DefPasswordHint">користувач відключив прийом повідомлень. у разі екстреної необхідності скористайтеся паролем *rabbit*. але пам'ятаєте, що прохачі слотів будуть занесені в бан- і игнор-листи. таким чином, не зможуть викачувати навіть по черзі і посилати повідомлення навіть з паролем</String>
+                <String Name="FreePmAccess">Доступ без паролю</String>
+
+		<String Name="CmdFirstLine">			Доступні Команди: 								</String>
+		<String Name="CmdAwayMsg">Вкл/Вимк режим "Пішов" з повідомленням (message)</String>
+		<String Name="CmdClearChat">Очистити вікно чату</String>
+		<String Name="CmdFavJoins">Показує прихід/відхід друзів (працює без /sj)</String>
+		<String Name="CmdShowJoins">Вкл/Вимк показ тих, що прийшли / що пішли в чаті</String>
+		<String Name="CmdTimeStamp">Вкл/Вимк час повідомлень</String>
+		<String Name="CmdSlots">Встановити число слотів віддачі в #</String>
+		<String Name="CmdExtraSlots">Встановити число екстра-слотов віддачі в #</String>
+		<String Name="CmdSmallFiles">Встановити розмір міні-файлів #</String>
+		<String Name="CmdShareRefresh">Відновити свій список файлів</String>
+		<String Name="CmdShareRebuild">Перезібрати файли HashIndex і HashData (перехешировати)</String>
+		<String Name="CmdJoinHub">Підключитися до хабу з адресою #</String>
+		<String Name="CmdCloseWnd">Закрити поточне вікно</String>
+		<String Name="CmdFavHub">Додати поточних хаб (якщо в ліч, то юзера) у Вибране</String>
+		<String Name="CmdRmFav">Видалити поточних хаб з Вибраних</String>
+		<String Name="CmdUserlist">Показати/приховати юзер-лист</String>
+		<String Name="CmdIgnorelist">Відобразити игнор-лист</String>
+		<String Name="CmdFavUser">Додати користувача (user) у Друзі</String>
+		<String Name="CmdSendPm">Відправити лічку до (user) з текстом (msg)(не обов'язково)</String>
+		<String Name="CmdGetlist">Викачати файл-лист з користувача (user)</String>
+		<String Name="CmdConnection">Показати IP і порт для з'єднання з юзерами</String>
+		<String Name="CmdFlylinkdc">Показати версію FlylinkDC++ у вікні</String>
+		<String Name="CmdStats">Відобразити статистику клієнта у вікні</String>
+		<String Name="CmdUrl">Відкрити в браузері (url)</String>
+		<String Name="CmdSaveQueue">Зберегти чергу скачки</String>
+		<String Name="CmdDoSearch">Виконати пошук (string)</String>
+		<String Name="CmdShutdown">Активувати процес виключення комп'ютера</String>
+		<String Name="CmdMe">Сказати від третьої особи</String>
+		<String Name="CmdWinamp">Вивести інфо про Winamp (WMP, itunes, MP Classic) в чат</String>
+		<String Name="CmdHelpInfo">Більше про програму Ви можете дізнатися на Форумі програми (Допомога -> Форум)</String>
+		<String Name="PassiveNotice">Ви підключені до хабу в пасивному режимі, рекомендуємо перемкнутися в активний режим - інструкція: http://flylinkdc.leschat.net/ </String>
+		<String Name="StartupBackup">Робити аварійну копію настройок при запуску</String>
+		<String Name="AdlTitle">ADL-пошук, опис</String>
+		<String Name="AdlBrief">ADL-пошук це інструмент для швидкого пошуку у файл-лістах. Наприклад 
+створіть новий ADL-пошук, ввівши 'avi' в полі пошуку. Коли ви викачаєте 
+файл-лист, всі avi-файли будуть відображені в спеціальній папці, названої 
+"ADLSearch", для швидкого пошуку. Це теж саме як використовувати 
+стандартний 'пошук' кілька разів у файл-лісті.
+Спеціальні можливості:
+- 'Включено' якщо відмічено, пошук активний
+- 'Тип пошуку' може наступних видів:
+   'Ім'я файлу' - пошук по імені файлу
+   'Директорія' - пошук в імені директорії, і переміщення всієї 
+подальшої її структури в папку ADL-пошуку
+   'Повний шлях' - 'Діректорія'+ 'Ім'я файлу'
+- 'Папка пошуку' назва папки, де будуть показані результати
+- 'Мін/Макс Розмір' встановити критерії файлів. Не діє для пошуку 
+'Дерікторій'
+З'являється нова можливість, при виклику контекстного меню (правий 
+клік) у даній дерокторії 'Перейти до папці' і може використовуватися для 
+переходу в оригінальне місце розташування файлу або директорії.
+Екстра можливості:
+1) Якщо ви використовуєте %y.%m.%d у рядку пошуку, то це буде замінено 
+сьогоднішньою датою. Зміните на y/m/d або пропустити якийсь параметр, 
+щоб уникнути заміни. Якщо ви використовуєте %[nick], це буде замінено 
+нікому користувача, у якого ви викачали файл-ліст.
+2) Якщо ви назвете кінцеву папку 'discard', ці файли не будуть 
+відображатися в основному результаті. Використовуйте разом з Екстра 
+можливістю 3, щоб видалити нецікаві результати.
+3) Якщо в настройках програми стоїть "Закінчити на першому збігу з 
+Автопошуку" (настройки - додатково), Автопошук зупинитися після 
+першого збігу. Порядок пошуку при цьому дуже важливий. Наприклад: 
+Створіть пошук з параметром 'xxx' і призначенням 'discard'. Буде відсіяно 
+багато порнографічних файлів, і вони не будуть включені в решту пошуків.</String>
+		<String Name="TitleIpfilter">IP Фільтр</String>
+		<String Name="ErrIpfilter">IPTrust.ini не знайдений...</String>
+		<String Name="IpfilterPathWay">Файл з правилами:</String>
+		<String Name="IpfilterCurRules">Поточні правила (дозволені зони IP адрес):</String>
+		<String Name="IpfilterGroupbox">Фільтрація IP адрес</String>
+</Strings>
+</Language>

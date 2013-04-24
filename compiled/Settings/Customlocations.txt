@@ -1,0 +1,9 @@
+* Updating the database ISPs
+   http://www.assembla.com/spaces/customlocations-greylink
+   Build on the base 1245, created 2013-04-01 17:04:37 +0700
+   Total in database:
+    - ISP - 1399
+    - ISPs logo - 1408
+    - Address range - 5881
+   Archive CustomLocations.7z created by NightOrion
+

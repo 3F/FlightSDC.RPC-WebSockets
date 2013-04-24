@@ -1,0 +1,4 @@
+compiled\mpcresources.ru.dll
+compiled\mpc-hc.exe
+compiled\default.mpcpl
+compiled\mpc-hc.ini

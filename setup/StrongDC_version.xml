@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<StrongDC>
+<URL>http://flylinkdc.blogspot.com/2012/05/strongdc-sqlite-r10096.html</URL>
+<Version>10096</Version>
+<BuildID>10096</BuildID>
+<DCVersion>0.77</DCVersion>
+<Title>New version</Title>
+<Message>
+--------------------------------------------------
+Скачать
+
+ http://flylinkdc.blogspot.com/2012/05/strongdc-sqlite-r10096.html
+
+* Исправлены падения на некоторых медиафайлах (mediainfo 0.7.58)
+* SQLite Release 3.7.12.1
+
+Полный лог изменений:
+  http://flylinkdc.blogspot.com/search/label/strongdc-sqlite
+
+</Message>
+</StrongDC>
+
