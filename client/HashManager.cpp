@@ -185,6 +185,8 @@ bool HashManager::addFileFromStream(const string& p_name, const TigerTree& p_TT,
 
 void HashManager::getMediaInfo(const string& p_name, CFlyMediaInfo& p_media, int64_t p_size, const TigerTree& p_tth)
 {
+    //TODO: долго хешируется, и пока не нужен
+    return;
 	try
 	{
 #if defined(USE_MEDIAINFO_DLL)
