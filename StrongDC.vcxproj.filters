@@ -20,6 +20,24 @@
       <UniqueIdentifier>{5c7bcc03-a9a8-4e13-9a1d-518062c5668c}</UniqueIdentifier>
       <Extensions>txt</Extensions>
     </Filter>
+    <Filter Include="Rpc">
+      <UniqueIdentifier>{54a11a1f-4616-4631-84f3-29fa0f8855d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rpc\Services">
+      <UniqueIdentifier>{b1a7a9b9-c337-4c2c-a374-8b1818704777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rpc\Exceptions">
+      <UniqueIdentifier>{d5e9a23c-43bd-4ea4-9cb4-5587ad5637d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rpc\Interfaces">
+      <UniqueIdentifier>{6c0f6eaa-45e7-41f8-a04c-10a5f1a433cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rpc\UI">
+      <UniqueIdentifier>{8c901c47-a16f-44e8-88a0-5bcdec2cd5c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rpc\Types">
+      <UniqueIdentifier>{4a18c73d-a960-491c-8c9b-a30d080d9018}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\ADLSearch.ico">
@@ -411,6 +429,9 @@
     <ClCompile Include="windows\Mapper_NATPMP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="rpc\Rpc.cpp">
+      <Filter>Rpc</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="windows\RangesPage.h">
@@ -676,6 +697,12 @@
     </ClInclude>
     <ClInclude Include="windows\DumpSenderDlg.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\Rpc.hpp">
+      <Filter>Rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\Exceptions\JsonRequestException.hpp">
+      <Filter>Rpc\Exceptions</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

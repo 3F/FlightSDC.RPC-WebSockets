@@ -104,7 +104,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)\boost;$(SolutionDir)\openssl\include;$(SolutionDir)\wtl;$(SolutionDir)\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\boost;$(SolutionDir)\openssl\include;$(SolutionDir)\wtl;$(SolutionDir)\zlib;$(SolutionDir)poco\Foundation\include;$(SolutionDir)poco\Net\include;$(SolutionDir)json_spirit\json_spirit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
@@ -115,7 +115,7 @@
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <PreprocessorDefinitions>BOOST_ALL_NO_LIB;HAVE_NATUPNP_H;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>POCO_NO_UNWINDOWS;BOOST_ALL_NO_LIB;HAVE_NATUPNP_H;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <ResourceCompile>
       <Culture>0x0409</Culture>
@@ -196,7 +196,7 @@
       <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
       <OmitFramePointers>false</OmitFramePointers>
       <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
-      <AdditionalIncludeDirectories>$(SolutionDir)\openssl\include;$(SolutionDir)\boost;$(SolutionDir)\wtl;$(SolutionDir)\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\openssl\include;$(SolutionDir)\boost;$(SolutionDir)\wtl;$(SolutionDir)\zlib;$(SolutionDir)poco\Foundation\include;$(SolutionDir)poco\Net\include;$(SolutionDir)json_spirit\json_spirit;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <StringPooling>true</StringPooling>
       <ExceptionHandling>Sync</ExceptionHandling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -216,7 +216,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <PreprocessorDefinitions>NDEBUG;BOOST_ALL_NO_LIB;HAVE_NATUPNP_H;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>POCO_NO_UNWINDOWS;NDEBUG;BOOST_ALL_NO_LIB;HAVE_NATUPNP_H;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
     <ResourceCompile>
@@ -390,6 +390,7 @@
     <ResourceCompile Include="StrongDC.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="rpc\Rpc.cpp" />
     <ClCompile Include="windows\ADLSearchFrame.cpp" />
     <ClCompile Include="windows\ADLSProperties.cpp" />
     <ClCompile Include="windows\AdvancedPage.cpp" />
@@ -469,6 +470,8 @@
     <ClCompile Include="windows\RangesPage.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="rpc\Exceptions\JsonRequestException.hpp" />
+    <ClInclude Include="rpc\Rpc.hpp" />
     <ClInclude Include="windows\DumpSenderDlg.h" />
     <ClInclude Include="windows\RangesPage.h" />
     <ClInclude Include="windows\AboutDlg.h" />
@@ -586,10 +589,13 @@
       <Project>
       </Project>
     </ProjectReference>
+    <ProjectReference Include="poco\Foundation\Foundation_vs100.vcxproj">
+      <Project>{8164d41d-b053-405b-826c-cf37ac0ef176}</Project>
+    </ProjectReference>
     <ProjectReference Include="poco\Net\Net_vs100.vcxproj">
       <Project>{b057a1fe-09f7-465e-b8b5-e1b659051d76}</Project>
       <Private>true</Private>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
       <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
       <LinkLibraryDependencies>true</LinkLibraryDependencies>
       <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
