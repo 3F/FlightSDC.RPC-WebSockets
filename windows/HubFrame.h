@@ -279,6 +279,13 @@ class HubFrame : public MDITabChildWindowImpl<HubFrame, RGB(255, 0, 0), IDR_HUB,
 		}
 		
 		static ResourceManager::Strings columnNames[OnlineUser::COLUMN_LAST];
+
+        static bool closeHubByAddr(const tstring& address);
+        /**
+         * Список открытых хабов с их состоянием.
+         * @param list - getting list
+         */
+        static void listOpenedHubs(std::map<std::string, bool>& list);
 		
 	private:
 		enum Tasks { UPDATE_USER_JOIN, UPDATE_USER, REMOVE_USER, ADD_CHAT_LINE,

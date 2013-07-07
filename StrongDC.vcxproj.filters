@@ -432,6 +432,15 @@
     <ClCompile Include="rpc\Rpc.cpp">
       <Filter>Rpc</Filter>
     </ClCompile>
+    <ClCompile Include="rpc\Services\RpcServiceSearch.cpp">
+      <Filter>Rpc\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="rpc\Services\RpcServiceHub.cpp">
+      <Filter>Rpc\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="rpc\Services\RpcServices.cpp">
+      <Filter>Rpc\Services</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="windows\RangesPage.h">
@@ -703,6 +712,15 @@
     </ClInclude>
     <ClInclude Include="rpc\Exceptions\JsonRequestException.hpp">
       <Filter>Rpc\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\Services\RpcServices.h">
+      <Filter>Rpc\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\Services\RpcServiceSearch.h">
+      <Filter>Rpc\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\Services\RpcServiceHub.h">
+      <Filter>Rpc\Services</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

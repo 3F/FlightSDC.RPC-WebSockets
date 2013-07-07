@@ -1,0 +1,126 @@
+testing communication
+<!-- https://bitbucket.org/3F/flightsdc/commits/1340e3a54baf5c68b7bbb2cb6cf34dcd46faea31#chg-compiled/UI/test-hub.html -->
+
+<script>
+    var HUB_TYPE = {
+        LIST:       0,
+        USED:       1,        
+        CONNECT:    2,
+        CLOSE:      3,
+        CREATE:     4,
+        UPDATE:     5,
+        DELETE:     6,
+        MENU:       7
+    };
+    
+    
+    var WebSockets = function(server)
+    {
+        this.ws = new WebSocket("ws://" + server);
+        
+        this.ws.onopen = function(){
+            console.log('connected to ' + server);
+        }
+        
+        this.ws.onclose = function(event){
+            console.log('closed with: ' + event.code + ' : ' + event.reason);
+        }
+        
+        this.ws.onerror = function(error){
+            console.log(error);
+        }
+        
+        this.ws.onmessage = function(data){
+            //TODO: fix string to json
+            console.log(data);
+        }
+    };
+    
+    
+    // Methods
+    WebSockets.prototype.add = function()
+    {
+        this.ws.send(JSON.stringify({
+                        id      : 1,
+                        method  : "r.hub",
+                        params  : [HUB_TYPE.CREATE, {
+                                            'caption':'capt1',
+                                            'server':'dchub://test',
+                                            'description':'descr'
+                                  }]
+                    }));
+    }
+    
+    WebSockets.prototype.del = function()
+    {
+        this.ws.send(JSON.stringify({
+                        id      : 1,
+                        method  : "r.hub",
+                        params  : [HUB_TYPE.DELETE, {
+                                            'server':'dchub://test'
+                                  }]
+                    }));
+    }
+    
+    WebSockets.prototype.update = function()
+    {
+        this.ws.send(JSON.stringify({
+                        id      : 1,
+                        method  : "r.hub",
+                        params  : [HUB_TYPE.UPDATE, {
+                                            'caption':'NewCapt1',
+                                            'server':'dchub://test',
+                                            //'serverNew':'dchub://testNew',
+                                            'description':'NewDescr'
+                                  }]
+                    }));
+    }
+    
+    WebSockets.prototype.connect = function()
+    {
+        this.ws.send(JSON.stringify({
+                        id      : 1,
+                        method  : "r.hub",
+                        params  : [HUB_TYPE.CONNECT, {
+                                            'server':'test'
+                                  }]
+                    }));
+    }
+    
+    
+    WebSockets.prototype.close = function()
+    {
+        this.ws.send(JSON.stringify({
+                        id      : 1,
+                        method  : "r.hub",
+                        params  : [HUB_TYPE.CLOSE, {
+                                            'server':'test'
+                                  }]
+                    }));
+    }
+    
+    WebSockets.prototype.favlist = function()
+    {
+        this.ws.send(JSON.stringify({
+                        id      : 1,
+                        method  : "r.hub",
+                        params  : [HUB_TYPE.LIST, {}]
+                    }));
+    }
+    
+    WebSockets.prototype.used = function()
+    {
+        this.ws.send(JSON.stringify({
+                        id      : 1,
+                        method  : "r.hub",
+                        params  : [HUB_TYPE.USED, {}]
+                    }));
+    }
+    
+    
+    // let's begin
+    var hub = new WebSockets('127.0.0.1:1271');
+    //...
+    
+    
+</script>

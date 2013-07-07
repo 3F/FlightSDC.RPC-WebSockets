@@ -218,6 +218,23 @@ void HubFrame::openWindow(const tstring& aServer
 	}
 }
 
+bool HubFrame::closeHubByAddr(const tstring& address)
+{
+    FrameIter iHub = frames.find(address);
+	if(iHub != frames.end()){
+        iHub->second->PostMessage(WM_CLOSE);
+        return true;
+    }
+    return false;
+}
+
+void HubFrame::listOpenedHubs(std::map<std::string, bool>& list)
+{
+	for(auto iHub = frames.cbegin(); iHub != frames.cend(); iHub++){
+        list[Text::fromT(iHub->first)] = iHub->second->client->isConnected();
+	}
+}
+
 LRESULT HubFrame::OnForwardMsg(UINT /*uMsg*/, WPARAM /*wParam*/, LPARAM lParam, BOOL& /*bHandled*/)
 {
 	LPMSG pMsg = (LPMSG)lParam;

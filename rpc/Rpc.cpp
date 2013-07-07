@@ -11,6 +11,9 @@
 #include "Poco/Net/HTTPServerParams.h"
 #include "Poco/Net/WebSocket.h"
 #include "Poco/Net/NetException.h"
+#include "Poco/TextConverter.h"
+#include "Poco/Latin1Encoding.h"
+#include "Poco/UTF8Encoding.h"
 
 using Poco::Net::HTTPServerRequest;
 using Poco::Net::HTTPServerResponse;
@@ -20,6 +23,9 @@ using Poco::Net::HTTPRequestHandlerFactory;
 using Poco::Net::HTTPResponse;
 using Poco::Net::WebSocket;
 using Poco::Net::WebSocketException;
+using Poco::TextConverter;
+using Poco::Latin1Encoding;
+using Poco::UTF8Encoding;
 
 namespace reg {
 namespace p2p {
@@ -51,6 +57,7 @@ namespace rpc {
                     std::string data(buf, count);
                     std::string resultJson = handleRequest(data);
 
+                    //TODO: ! streaming data from service methods
                     ws.sendFrame(resultJson.c_str(), resultJson.length(), flags);
 
                 }while((flags & WebSocket::FRAME_OP_BITMASK) != WebSocket::FRAME_OP_CLOSE);
@@ -126,8 +133,13 @@ namespace rpc {
                 }
             }
 
-            //std::string utf8String("");
-            return json_spirit::write_string(json_spirit::mValue(result->getResponse()), json_spirit::pretty_print);
+            Latin1Encoding encLatin;
+            UTF8Encoding encUtf8;
+            TextConverter converter(encLatin, encUtf8);
+
+            std::string utf8;
+            converter.convert(json_spirit::write_string(json_spirit::mValue(result->getResponse()), json_spirit::pretty_print), utf8);
+            return utf8;
         };
 
 

@@ -727,6 +727,12 @@ class SearchFrame : public MDITabChildWindowImpl<SearchFrame, RGB(127, 127, 255)
 			HubInfo* hubInfo = new HubInfo(Text::toT(aClient->getHubUrl()), Text::toT(aClient->getHubName()), aClient->getMyIdentity().isOp());
 			PostMessage(WM_SPEAKER, WPARAM(s), LPARAM(hubInfo));
 		}
+
+    public:
+        /**
+         * јгрегирование найденного дл€ сервисного метода.
+         */
+        static vector<SearchResultPtr> searchResults;
 };
 
 #endif // !defined(SEARCH_FRM_H)

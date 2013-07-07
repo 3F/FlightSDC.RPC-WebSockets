@@ -1,0 +1,64 @@
+testing communication
+<!-- https://bitbucket.org/3F/flightsdc/commits/2cf37c6836e7ea48a1a40694bbdedef23014bb78#chg-compiled/UI/test-search.html -->
+
+<script>
+    var SEARCH_TYPE =
+    {
+        RESPONSE:   0,
+        DEFAULT:    1,
+        TTH:        2,
+        COMMAND:    3
+    };
+    
+    
+    var WebSockets = function(server)
+    {
+        this.ws = new WebSocket("ws://" + server);
+        
+        this.ws.onopen = function(){
+            console.log('connected to ' + server);
+        }
+        
+        this.ws.onclose = function(event){
+            console.log('closed with: ' + event.code + ' : ' + event.reason);
+        }
+        
+        this.ws.onerror = function(error){
+            console.log(error);
+        }
+        
+        this.ws.onmessage = function(data){
+            //TODO: fix string to json
+            console.log(data);
+        }
+    };
+    
+    
+    // Methods
+    WebSockets.prototype.search = function()
+    {
+        this.ws.send(JSON.stringify({
+                        id      : 1,
+                        method  : "r.search",
+                        params  : [SEARCH_TYPE.DEFAULT, 'beautiful']
+                    }));
+    }
+    
+    WebSockets.prototype.receive = function(max)
+    {
+        this.ws.send(JSON.stringify({
+                        id      : 1,
+                        method  : "r.search",
+                        //params:[SEARCH_TYPE.RESPONSE] default 500
+                        params  : [SEARCH_TYPE.RESPONSE, Math.max(0, max)]
+                    }));
+        //TODO: streaming receive., request/response see old branch(https://bitbucket.org/3F/flightsdc/commits/2cf37c6836e7ea48a1a40694bbdedef23014bb78#chg-compiled/UI/test-search.html)
+    }    
+    
+    
+    // let's begin
+    var files = new WebSockets('127.0.0.1:1271');
+    //...
+    
+    
+</script>

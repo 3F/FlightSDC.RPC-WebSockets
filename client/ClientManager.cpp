@@ -702,6 +702,16 @@ uint64_t ClientManager::search(StringList& who, int aSizeMode, int64_t aSize, in
 	Lock l(cs);
 	
 	uint64_t estimateSearchSpan = 0;
+
+    if(who.empty()){
+        for(auto it = clients.cbegin(); it != clients.cend(); ++it){
+            if(it->second->isConnected()){
+			    uint64_t ret = it->second->search(aSizeMode, aSize, aFileType, aString, aToken, aExtList, aOwner);
+			    estimateSearchSpan = max(estimateSearchSpan, ret);
+            }
+        }
+        return estimateSearchSpan;
+    }
 	
 	for (StringIter it = who.begin(); it != who.end(); ++it)
 	{

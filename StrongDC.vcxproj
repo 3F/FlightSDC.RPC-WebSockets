@@ -391,6 +391,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="rpc\Rpc.cpp" />
+    <ClCompile Include="rpc\Services\RpcServiceHub.cpp" />
+    <ClCompile Include="rpc\Services\RpcServices.cpp" />
+    <ClCompile Include="rpc\Services\RpcServiceSearch.cpp" />
     <ClCompile Include="windows\ADLSearchFrame.cpp" />
     <ClCompile Include="windows\ADLSProperties.cpp" />
     <ClCompile Include="windows\AdvancedPage.cpp" />
@@ -472,6 +475,9 @@
   <ItemGroup>
     <ClInclude Include="rpc\Exceptions\JsonRequestException.hpp" />
     <ClInclude Include="rpc\Rpc.hpp" />
+    <ClInclude Include="rpc\Services\RpcServiceHub.h" />
+    <ClInclude Include="rpc\Services\RpcServices.h" />
+    <ClInclude Include="rpc\Services\RpcServiceSearch.h" />
     <ClInclude Include="windows\DumpSenderDlg.h" />
     <ClInclude Include="windows\RangesPage.h" />
     <ClInclude Include="windows\AboutDlg.h" />

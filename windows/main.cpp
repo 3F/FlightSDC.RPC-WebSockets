@@ -49,7 +49,9 @@
 #include "PopupManager.h"
 
 #include "../rpc/Rpc.hpp"
+#include "../rpc/Services/RpcServices.h"
 using reg::p2p::rpc::Server;
+using reg::p2p::rpc::Services;
 
 #include <delayimp.h>
 #ifdef USE_RIP_MINIDUMP
@@ -743,6 +745,19 @@ int WINAPI _tWinMain(HINSTANCE hInstance, HINSTANCE /*hPrevInstance*/, LPTSTR lp
 		hInstRich = ::LoadLibrary(_T("RICHED32.DLL"));
 	
     Server* ws = new Server(1271); //TODO: available ports
+    // https://bitbucket.org/3F/flightsdc/commits/1340e3a54baf5c68b7bbb2cb6cf34dcd46faea31?at=RPC-xhr#chg-windows/main.cpp
+
+    //TODO: выделить отдельную прослойку
+    Services services;
+    ws->bindMethod("r.transfers", boost::bind(&Services::transfers, &services, _1, _2));
+    ws->bindMethod("r.hub", boost::bind(&Services::hub, &services, _1, _2));
+    ws->bindMethod("r.search", boost::bind(&Services::search, &services, _1, _2));
+    ws->bindMethod("r.queue", boost::bind(&Services::queue, &services, _1, _2));
+    ws->bindMethod("r.share", boost::bind(&Services::share, &services, _1, _2));
+    ws->bindMethod("r.settings", boost::bind(&Services::settings, &services, _1, _2));
+    ws->bindMethod("r.execute", boost::bind(&Services::execute, &services, _1, _2));
+    ws->bindMethod("r.hashing", boost::bind(&Services::hashing, &services, _1, _2));
+
 	const int nRet = Run(lpstrCmdLine, nCmdShow);
     delete ws;
 	

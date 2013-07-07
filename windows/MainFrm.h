@@ -81,7 +81,9 @@ class MainFrame : public CMDIFrameWindowImpl<MainFrame>, public CUpdateUI<MainFr
 			STATUS_MESSAGE,
 			SHOW_POPUP,
 			REMOVE_POPUP,
-			SET_PM_TRAY_ICON
+			SET_PM_TRAY_ICON,
+            QUICK_CONNECT_HUB,
+            SEARCH_SIMPLE
 		};
 		
 		BOOL PreTranslateMessage(MSG* pMsg)

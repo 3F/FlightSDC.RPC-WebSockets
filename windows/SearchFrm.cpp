@@ -32,6 +32,7 @@
 #include "../client/SearchManager.h"
 
 TStringSet SearchFrame::lastSearches;
+vector<SearchResultPtr> SearchFrame::searchResults;
 
 int SearchFrame::columnIndexes[] = { COLUMN_FILENAME, COLUMN_HITS, COLUMN_NICK, COLUMN_TYPE, COLUMN_SIZE,
                                      COLUMN_PATH, COLUMN_LOCAL_PATH, COLUMN_SLOTS, COLUMN_CONNECTION, COLUMN_HUB, COLUMN_EXACT_SIZE, COLUMN_IP, COLUMN_TTH
@@ -45,9 +46,15 @@ static ResourceManager::Strings columnNames[] = { ResourceManager::FILE,  Resour
 
 SearchFrame::FrameMap SearchFrame::frames;
 
+static SearchFrame* instance = NULL;
+
 void SearchFrame::openWindow(const tstring& str /* = Util::emptyString */, LONGLONG size /* = 0 */, SearchManager::SizeModes mode /* = SearchManager::SIZE_ATLEAST */, SearchManager::TypeModes type /* = SearchManager::TYPE_ANY ( 0 ) */)
 {
-	SearchFrame* pChild = new SearchFrame();
+    if(instance != NULL){
+        return;
+    }
+    searchResults.clear();
+	SearchFrame* pChild = instance = new SearchFrame();
 	pChild->setInitial(str, size, mode, type);
 	pChild->CreateEx(WinUtil::mdiClient);
 	
@@ -437,7 +444,7 @@ void SearchFrame::onEnter()
 	// Change Default Settings If Changed
 	if (onlyFree != BOOLSETTING(FREE_SLOTS_DEFAULT))
 		SettingsManager::getInstance()->set(SettingsManager::FREE_SLOTS_DEFAULT, onlyFree);
-		
+	/*
 	int n = ctrlHubs.GetItemCount();
 	for (int i = 1; i < n; i++)
 	{
@@ -449,7 +456,7 @@ void SearchFrame::onEnter()
 	
 	if (!clients.size())
 		return;
-		
+	*/
 	tstring s(ctrlSearch.GetWindowTextLength() + 1, _T('\0'));
 	ctrlSearch.GetWindowText(&s[0], s.size());
 	s.resize(s.size() - 1);
@@ -641,6 +648,7 @@ void SearchFrame::on(SearchManagerListener::SR, const SearchResultPtr& aResult) 
 		return;
 	}
 	
+    searchResults.push_back(aResult);
 	SearchInfo* i = new SearchInfo(aResult);
 	PostMessage(WM_SPEAKER, ADD_RESULT, (LPARAM)i);
 }
@@ -969,6 +977,8 @@ LRESULT SearchFrame::onClose(UINT /*uMsg*/, WPARAM /*wParam*/, LPARAM /*lParam*/
 		                            SettingsManager::SEARCHFRAME_VISIBLE);
 		                            
 		bHandled = FALSE;
+        instance = NULL;
+        searchResults.clear();
 		return 0;
 	}
 }
