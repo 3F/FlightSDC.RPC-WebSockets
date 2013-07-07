@@ -48,6 +48,9 @@
 #include "MainFrm.h"
 #include "PopupManager.h"
 
+#include "../rpc/Rpc.hpp"
+using reg::p2p::rpc::Server;
+
 #include <delayimp.h>
 #ifdef USE_RIP_MINIDUMP
 #include <Dbghelp.h>
@@ -738,8 +741,10 @@ int WINAPI _tWinMain(HINSTANCE hInstance, HINSTANCE /*hPrevInstance*/, LPTSTR lp
 	HINSTANCE hInstRich = ::LoadLibrary(_T("RICHED20.DLL"));
 	if (!hInstRich)
 		hInstRich = ::LoadLibrary(_T("RICHED32.DLL"));
-		
+	
+    Server* ws = new Server(1271); //TODO: available ports
 	const int nRet = Run(lpstrCmdLine, nCmdShow);
+    delete ws;
 	
 	if (hInstRich)
 	{
